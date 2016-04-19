@@ -952,13 +952,6 @@ div#tarifs-menu>div.tarifs-info{
     text-align: center;
 }
 
-div#tarifs-menu>div.tarifs-info>div.l_tarifs-info{
-    width:356px;
-    height:42px;
-    float: left;
-	margin-left: 20%;
-
-}
 div#tarifs-menu>div.tarifs-info>div.l_tarifs-info>p {
     color:#FFFFFF;
     font-size: 26px;
@@ -966,9 +959,8 @@ div#tarifs-menu>div.tarifs-info>div.l_tarifs-info>p {
 }
 div#tarifs-menu>div.tarifs-info>div.l_tarifs-info>p> img{
     height: 1px;
-    width: 356px;
+    width: 256px;
     margin-bottom: 20px;
-    margin-left: 4px;
 }
 div#tarifs-menu>div.tarifs-info>div.l_tarifs-info>p>span {
     color:#f15525;
@@ -976,7 +968,7 @@ div#tarifs-menu>div.tarifs-info>div.l_tarifs-info>p>span {
 
 div#tarifs-menu>div.tarifs-info>div.l_tarifs-info>p.price_t{
     margin-top: -60px;
-    margin-left: -160px;
+    margin-left: -50px;
     font-size: 60px;
     font-family: GOTHAPROREG;
 }
@@ -984,14 +976,6 @@ div#tarifs-menu>div.tarifs-info>div.l_tarifs-info>p.price_t>span{
     font-size: 14px;
     font-family: GOTHAPRO;
     color: #FFFFFF;
-}
-div#tarifs-menu>div.tarifs-info>div.r_tarifs-info{
-
-    width:356px;
-    height:42px;
-    float: left;
-    margin-left: 48px;
-
 }
 
 div#tarifs-menu>div.tarifs-info>div.r_tarifs-info>p {
@@ -1002,9 +986,8 @@ div#tarifs-menu>div.tarifs-info>div.r_tarifs-info>p {
 
 div#tarifs-menu>div.tarifs-info>div.r_tarifs-info>p> img{
     height: 1px;
-    width: 356px;
+    width: 256px;
     margin-bottom: 20px;
-    margin-left: 34px;
 }
 div#tarifs-menu>div.tarifs-info>div.r_tarifs-info>p>span {
     color:#f15525;
@@ -1012,7 +995,7 @@ div#tarifs-menu>div.tarifs-info>div.r_tarifs-info>p>span {
 
 div#tarifs-menu>div.tarifs-info>div.r_tarifs-info>p.price_t{
     margin-top: -60px;
-    margin-left: -114px;
+    margin-left: -30px;
     font-size: 60px;
     font-family: GOTHAPROREG;
 }
