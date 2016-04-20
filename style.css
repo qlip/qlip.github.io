@@ -925,6 +925,7 @@ div#tarifs-menu {
     min-height:1200px;
     width:100%;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 div#tarifs-menu>div.tarifs-title{
     padding-top: 40px;
@@ -1008,7 +1009,7 @@ div#tarifs-menu>div.tarifs-info>div.r_tarifs-info>p.price_t>span{
 div#tarifs-menu>div.tarifs-block{
     margin: 0 auto;
     border: 4px #FFFFFF solid;
-    margin-top: 60px;
+    margin-top: 95px;
     text-align: center;
     color:#FFFFFF;
     padding: 20px;
