@@ -1768,3 +1768,6 @@ height:100px!important;
 	    font-size: 0.6em;
 	}
 }
+.control-panel {
+	display:inline-flex;
+}
