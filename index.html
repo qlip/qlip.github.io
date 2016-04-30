@@ -1,1881 +1,487 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-   <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="IzA9k331QMfAODEcVwhP83xjlOeJGQuAgUR7IWlxDHI" />
-    <title>Адмиральский</title>
-    
-    <!-- Классы лендинга -->
-    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/flexslider.css" rel="stylesheet" >
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/queries.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-   
-   <link rel="stylesheet" type="text/css" href="css/highslide.css" /> <!-- Стиль галлереи --> 
-   <link href="style.css" rel="stylesheet" type="text/css" /> <!-- Самописный стиль (наш) --> 
-   <link href="css/mobile480.css" rel="stylesheet" type="text/css" /> <!-- Самописный стиль (для узких экранов) --> 
-   
-       <!-- Стили всплывающих событий -->
-    <link rel="stylesheet" href="js/arcticmodal/jquery.arcticmodal-0.3.css">
-    <link rel="stylesheet" href="js/arcticmodal/themes/simple.css">
-    
-    
-    	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-        
-        
-        <!-- Start WOWSlider.com HEAD section -->
-        <link rel="stylesheet" type="text/css" href="engine1/style.css" />
-        <!-- End WOWSlider.com HEAD section -->
-        
-        <!-- Google Tag Manager -->
-	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NF2564"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-NF2564');</script>
-		<!-- End Google Tag Manager -->	
+<html>
+<head>
+<meta charset="utf-8">
+<title>Аренда автовышки в Одессе | ЧП "ЭнергостройсервисПлюс"</title>
+<meta name="description" content="Аренда автовышки - услуги спецтехники в Одессе. Автовышка, бурокран - Аренда в Одессе +380 (63) 59 98 090">
+<meta name="keywords" content="аренда автовышки,аренда бурокана,аренда спецтехники">
 
-        <!-- GOOGLE MAPS -->
-<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
- 
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
-    <script>
-var map;
-function initialize() {
-  var myLatlng = new google.maps.LatLng(46.4380051,30.7305734);
-  var mapOptions = {
-    zoom: 17,
-	scrollwheel: false,
-    center: new google.maps.LatLng(46.4380800, 30.7305734)
-  };
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+<!-- START THEME STYLE -->
+<link rel="stylesheet" type="text/css" href="css/normal.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/headhesive.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="font/font-awesome/css/font-awesome.min.css">
+<!-- END THEME STYLE -->
 
-  var contentString = 'Бизнес-центр "Адмиральский"';
+<!-- START MAGNIFIC POPUP STYLESHEET -->
+<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+<!-- END MAGNIFIC POPUP STYLESHEET -->
 
-  var infowindow = new google.maps.InfoWindow({
-      content: contentString
-  });
+<!-- LOAD GOOGLE FONTS -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,600,700" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300,900&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<!-- END GOOGLE FONTS -->
 
-  var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: 'Uluru (Ayers Rock)'
-  });
-  google.maps.event.addListener(marker, 'click', function() {
-    infowindow.open(map,marker);
-  });
-}
+<!-- START AJAX WEBFONTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+<!-- END AJAX WEBFONTS -->
 
-google.maps.event.addDomListener(window, 'load', initialize);
+<!-- START MOBILE DETECT -->
+<script>if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';</script>
+<!-- END MOBILE DETECT -->
 
-    </script>
-        
-        <!-- GOOGLE MAPS END -->
-        
-        
-	<script src="js/modernizr.custom.js" type="text/javascript"></script>
-  
-    
-    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>  <!-- JQuery --> 
-    
-    <script type="text/javascript" src="js/unslider.min.js"></script>  <!-- Скрипт слайдера (шапка) --> 
-    
-    <script type="text/javascript" src="js/highslide-with-gallery.js"></script>  <!-- Скрипт галлереи --> 
+<!-- START FAVICON -->
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<!-- EDN FAVICON -->
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
+</head>
 
-	<script src="js/coda.js" type="text/javascript"> </script>  <!-- Скрипт календаря (мини события) --> 
-    
-	<script type="text/javascript" src="js/jquery.arcticmodal-0.3.min.js"></script>  <!-- Скрипт всплывающих событий -->
-    
-    <script src="js/scrollup.js" type="text/javascript"></script>
+<body>
+<!-- GOOGLE TAG MANAGER GTM-NMQ3PP -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NMQ3PP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NMQ3PP');</script>
+<!-- END GOOGLE TAG MANAGER -->
 
-    
-    <!-- Скрипт галлереи -->
+<!-- START HEADER -->
 
-    <script type="text/javascript">
-    	hs.graphicsDir = 'img/';
-    	hs.align = 'center';
-    	hs.transitions = ['expand', 'crossfade'];
-    	hs.outlineType = 'rounded-white';
-    	hs.fadeInOut = true;
-    	hs.numberPosition = 'caption';
-    	hs.dimmingOpacity = 0.75;
-    
-    	// Add the controlbar
-    	if (hs.addSlideshow) hs.addSlideshow({
-    		//slideshowGroup: 'group1',
-    		interval: 5000,
-    		repeat: false,
-    		useControls: true,
-    		fixedControls: 'fit',
-    		overlayOptions: {
-    			opacity: .75,
-    			position: 'bottom center',
-    			hideOnMouseOut: true
-    		}
-    	});
-    </script>
-    
-
-
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-        
-        <link rel="stylesheet" href="js/date/jquery-ui.css">
-
-<script src="js/date/jquery-ui.js"></script>
-<script type="text/javascript" src="js/rujquery.js">
-$.datepicker.setDefaults( $.datepicker.regional[ "" ] );
-$.datepicker.setDefaults( $.datepicker.regional[ "ru" ] );
-
-</script>
-
-<script type="text/javascript" src="ajax.js"></script>
-				
-                    
-
-
-
-<script type="text/javascript">
-$(document).ready(function() { // вся магия после загрузки страницы
-	$('a#go').click( function(event){ // ловим клик по ссылки с id="go"
-		event.preventDefault(); // выключаем стандартную роль элемента
-		$('#overlay').fadeIn(400, // сначала плавно показываем темную подложку
-		 	function(){ // после выполнения предъидущей анимации
-				$('#modal_form') 
-					.css('display', 'block') // убираем у модального окна display: none;
-					.animate({opacity: 1, top: '50%'}, 200); // плавно прибавляем прозрачность одновременно со съезжанием вниз
-		});
-	});
-	/* Закрытие модального окна, тут делаем то же самое но в обратном порядке */
-	$('#modal_close, #overlay').click( function(){ // ловим клик по крестику или подложке
-		$('#modal_form')
-			.animate({opacity: 0, top: '45%'}, 200,  // плавно меняем прозрачность на 0 и одновременно двигаем окно вверх
-				function(){ // после анимации
-					$(this).css('display', 'none'); // делаем ему display: none;
-					$('#overlay').fadeOut(400); // скрываем подложку
-				}
-			);
-	});
-});
-</script>
-
-
-
-
-                    
-  
-      </head>
-      <body id="top">
-      
-<!-- Модальное окно -->
-<div id="modal_form">
-	<span id="modal_close"></span>
-	
-    
-    <div id="code_form"></div>
-
-<script>  
-        $(document).ready(function(){  
-          
-            $('#order-button').click(function(){  
-                $.ajax({  
-                    url: "form_code.html",  
-                    cache: false,  
-                    success: function(html){  
-                        $("#code_form").html(html);  
-                    }  
-                });  
-            });  
-              
-              
-        });  
-</script> 
-    
-    
-</div>
-<div id="overlay"></div>
-      
-      
-      
-      
-      
-      
-      
-
-      
-      
-      
-
-      
-      
-      
-      
-
-    
-
-
-
-      
- 
-
-			<a href="#" id="go"><div id="order-button">
-			    <img src="images/order-2.png" alt="Отправить запрос">
-				<!--div id="slideout_inner" onClick="podykaUpd();"> <img src="images/order-2.png"></div-->
-			</div></a>
-
-
-	  
-	  <a id="nav-toggle" hidden="hidden" class="nav_slide_button" href="#"><span></span></a>
-      
-     
-     
-     
-     
-     
-     
-   <div class="logo_menu">
-     <a href="http://admiralsky.od.ua"><div class="ad_logo"></div></a>
-     <div class="ad_menu">
-     
-     
-         <div class="header-inner-right">
- 
-				<nav class="cl-effect-3" style="background:none; font-size:12px; margin-top:15px;">
-					<div style="width:100%; text-align:right;">
-                    <a href="#about-us">О НАС</a>
-					     <!-- <a href="#sl_anons">АНОНС</a> -->
-					          <a href="#sl_halls">ЗАЛЫ</a>
-					          <a href="#tarifs-menu">ТАРИФЫ</a>
-                    <a href="#sl_contacts">КОНТАКТЫ</a>
-                    <span class="ringo_phone"><a href="tel:+380487053048">+380 (48) 705 30 48</a></span>
-          </div>
-				</nav>
-
-                
-            </div>
-     
-     
-     </div>
-   </div>  
-
-	<div class="mob_phone"></div>
-     
-  <div class="bg_line">
-    <div class="mob_phone_iphone">+380(48) 705 30 48</div>
-	<span class="mob_menu"></span>
-  </div>
-  
-  <div class="mob_menu_list">
-  	<ul>
-    	<li><a href="#about-us">О НАС</a></li>
-        <!--<li><a href="#sl_anons">АНОНС</a></li>-->
-        <li><a href="#sl_photo">ФОТООТЧЁТЫ</a></li>
-        <li><a href="#sl_halls">ЗАЛЫ</a></li>
-        <li><a href="#tarifs-menu">ТАРИФЫ</a></li>
-        <li><a href="#sl_contacts">КОНТАКТЫ</a></li>
-    </ul>
-    <span class="mob_menu_close"></span>
-  </div>
-     
-     
-     
-     
-     <div style="position:absolute; z-index:99; margin-top:150px; width:100%;">
-       <div class="slider-foreground animated fadeInDown">
-            
-            <!-- Круглые ярлыки в шапке -->
-            <div class="hall-circles">
-                <div class="hc1">
-                    <canvas width="240" height="240"></canvas>
-					<a href="#sl_halls"> 
-						<div class="round-menu">
-							<span class="menu-text1">ЗАЛ <br />
-							КОНФЕРЕНЦИЙ</span> <br />
-							<span class="menu-text2">NEW YORK</span><br />
-							<span class="menu-text3">150 м<sup><small>2</small></sup></span>
-						</div>
-					 </a>	
-                </div>
-
-                <div class="hc2">
-                    <canvas width="240" height="240"></canvas>
-					<a href="#sl_terras"> 
-						<div class="round-menu">
-							<span class="menu-text1">ЛАУНЖ<br />
-							ЗОНА</span> <br />
-							<span class="menu-text2">CENTRAL PARK</span><br />
-							<span class="menu-text3">33 м<sup><small>2</small></sup></span>
-						</div>
-					</a>	
-                </div>
-
-                <div class="hc3">
-                    <canvas width="240" height="240"></canvas>
-                    <a href="#sl_terras" class="grey">
-						<div class="round-menu">
-						   <br />
-							<span class="menu-text1">ТЕРРАСА </span> <br />
-							<br /><br />
-							<span class="menu-text3">35 м<sup><small>2</small></sup></span>
-						</div>
-					</a>
-                </div>
-                
-            </div>
-            
-            
-            <!-- Круглые ярлыки в шапке (конец) -->
-          <div class="bg_line">
-            <div class="slogan animated fadeInUp delay-1s" >стильное <span>бизнес-пространство</span> для успешной работы</div>  <!-- Слоган -->
-          </div>  
-        </div>
-    </div>
-    <!-- Ярлыки и слоган (absolute) КОНЕЦ-->
-    
-    <script src="js/common.js" type="text/javascript"></script> <!-- Скрипт круглых ярлыков (шапка) -->
-    <script type="text/javascript" src="js/mobile_480.js"></script> <!-- Скрипт круглых ярлыков (для узких экранов) -->
-
-
-     
-     
-     
-     
-     
-   
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     <!-- Start WOWSlider.com BODY section -->
-<div id="wowslider-container1">
-<div class="ws_images"><ul>
-		<li><img src="data1/images/sl_big1.jpg" id="wows1_0"/></li>
-		<li><img src="data1/images/sl_big3.jpg" id="wows1_1"/></li>
-		<li><img src="data1/images/sl_big2.jpg" id="wows1_2"/></li>
-        <li><img src="data1/images/sl_big4.jpg" id="wows1_2"/></li>
-	</ul></div>
-	<div class="ws_bullets"><div>
-		<a href="#"><span>1</span></a>
-		<a href="#"><span>2</span></a>
-		<a href="#"><span>3</span></a>
-        <a href="#"><span>4</span></a>
-	</div></div>
-<div class="ws_shadow"></div>
-</div>	
-<script type="text/javascript" src="engine1/wowslider.js"></script>
-<script type="text/javascript" src="engine1/script.js"></script>
-<!-- End WOWSlider.com BODY section -->
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-        
-    <!-- О нас -->
-    <div id="about-us">
-        <div class="left-bg"></div>
-        <div class="right-bg"></div>      
-        <div class="about-us wp1">
-            <h1>О НАС</h1>
-            <h2>БИЗНЕС ЦЕНТР "АДМИРАЛЬСКИЙ" - ЭТО СТИЛЬНОЕ <br />БИЗНЕС-ПРОСТРАНСТВО ДЛЯ УСПЕШНОЙ РАБОТЫ.</h2>
-            <p>"Бизнес центр "Адмиральский" оборудован современным конференц-залом, лаунж-зоной для неформальных переговоров, просторной террасой с прекрасным видом на город. <br />
-            	Имеется также уютное кафе, салон красоты, магазин "Минимаркет".</p>
-            <p>Здание обеспечено автономным теплоснабжением, установлен аварийный дизель-генератор, помещения оборудованы системой вентиляции и кондиционирования. Имеется возможность проведения кофе-брейков, бизнес-ланчей и фуршетов. На прилегающей территории имеются  две охраняемые автостоянки.</p>
-        </div>
-    </div>
-    <!-- О нас (конец) -->
-        
-
-
-
-<!-- Анонс -->
-<!--
-<div class="ad_calendar_bg" id="sl_anons">
-<h1>АНОНС</h1>
-
-        <div class="mob_cal_slide">
-        	<div id="teamSlider_cal_mob">
-            	<ul class="slides">
-                	<li>
-                    	<h4>Апрель</h4>
-                     	<table cellspacing="0">
-                            <thead>
-                                <tr>
-                                	<th>ПН</th><th>ВТ</th><th>СР</th><th>ЧТ</th><th>ПТ</th><th>СБ</th><th class="mob_holiday">ВС</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td colspan="2"></td><td>1</td><td>2</td><td class="mob_date" id="date2">3</td><td>4</td><td class="mob_holiday">5</td>
-                                </tr>
-                                <tr>
-                                    <td>6</td><td class="mob_date" id="date2">7</td><td>8</td><td>9</td><td>10</td><td>11</td><td class="mob_holiday">12</td>
-                                </tr>
-                                <tr>
-                                    <td>13</td><td class="mob_date" id="date2">14</td><td>15</td><td>16</td><td>17</td><td>18</td><td class="mob_holiday">19</td>
-                                </tr>
-                                <tr>
-                                    <td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td class="mob_holiday">26</td>
-                                </tr>	
-                                <tr>
-                                    <td>27</td><td>28</td><td class="mob_date" id="date2">29</td><td>30</td><td colspan="3"></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </li>
-                	<li>
-                    	<h4>Май</h4>
-                     	<table cellspacing="0">
-                            <thead>
-                                <tr>
-                                	<th>ПН</th><th>ВТ</th><th>СР</th><th>ЧТ</th><th>ПТ</th><th>СБ</th><th class="mob_holiday">ВС</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td colspan="6"></td><td class="mob_holiday">1</td>
-                                </tr>
-                                <tr>
-                                    <td class="mob_date" id="date2">2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td class="mob_holiday">8</td>
-                                </tr>
-                                <tr>
-                                    <td>9</td><td>10</td><td>11</td><td>12</td><td class="mob_date" id="date2">13</td><td>14</td><td class="mob_holiday">15</td>
-                                </tr>
-                                <tr>
-                                    <td>16</td><td>17</td><td class="mob_date" id="date2">18</td><td>19</td><td>20</td><td>21</td><td class="mob_holiday">22</td>
-                                </tr>	
-                                <tr>
-                                    <td>23</td><td>24</td><td>25</td><td>26</td><td class="mob_date" id="date2">27</td><td>28</td><td class="mob_holiday">29</td>
-                                </tr>
-                                <tr>
-                                    <td>30</td><td>31</td><td colspan="5"></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </li>
-                	<li>
-                    	<h4>Июнь</h4>
-                     	<table cellspacing="0">
-                            <thead>
-                                <tr>
-                                	<th>ПН</th><th>ВТ</th><th>СР</th><th>ЧТ</th><th>ПТ</th><th>СБ</th><th class="mob_holiday">ВС</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td colspan="2"></td><td>1</td><td>2</td><td class="mob_date" id="date2">3</td><td>4</td><td class="mob_holiday">5</td>
-                                </tr>
-                                <tr>
-                                    <td>6</td><td class="mob_date" id="date2">7</td><td>8</td><td>9</td><td>10</td><td>11</td><td class="mob_holiday">12</td>
-                                </tr>
-                                <tr>
-                                    <td>13</td><td class="mob_date" id="date2">14</td><td>15</td><td>16</td><td>17</td><td>18</td><td class="mob_holiday">19</td>
-                                </tr>
-                                <tr>
-                                    <td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td class="mob_holiday">26</td>
-                                </tr>	
-                                <tr>
-                                    <td>27</td><td>28</td><td class="mob_date" id="date2">29</td><td>30</td><td colspan="3"></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </li>
-                </ul>
-            </div>
-        </div>
+<!-- SCROLL DIV #boxscroll by nicescroll 
+<div tabindex="1000" style="overflow-y: auto;" id="boxscroll"></div>
 -->
 
-<!-- Календари -->
-<!--
- <div class="ad_calendar_line">
-     <div class="ad_calend_cent_mo">
-       <div class="month_1">Апрель</div>
-       <div class="month_2">Май</div>
-       <div class="month_3">Июнь</div>
-     </div>
- 
-   <div class="ad_calend_cent">
-   -->
-<!-- Первый календарь (январь) -->
-
-<!--
-   	 <div class="ad_cal_2">
-     <table cellspacing="0">
-			<thead>
-				<tr>
-					<th>ПН</th><th>ВТ</th><th>СР</th>
-					<th>ЧТ</th><th>ПТ</th><th>СБ</th>
-
-					<th>ВС</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td class="padding" colspan="2"></td>
-					<td>1</td>
-					<td>2</td>
-					<td>3</td>
-					<td>4</td>
-                    <td>5</td>
-				</tr>
-				<tr>
-					<td>6</td>
-                    <td>7</td>
-					<td>8</td>
-					<td>9</td>
-					<td>10</td>
-					<td>11</td>
-                    <td>12</td>
-				</tr>
-				<tr>
-					<td>13</td>
-					<td>14</td>
-					<td>15</td>
-					<td>16</td>
-					<td>17</td>
-<td class="date_has_event" id="date2">
-                    18
-					<div class="events">
-							<ul>
-								<li>
-									<span class="title">Европейский Митинг</span>
-									<span class="desc">
-                                    
-                                    <b>Время начала:</b> c 09:00 до 19:30<br>
-                                    <b>Место проведения: </b> Конференц - зал<br>
-                                    </span>
-								</li>
-							</ul>
-						</div>
-					
-					</td>
-					<td>19</td>
-				</tr>
-				<tr>
-					<td>20</td>
-					<td>21</td>
-					<td>22</td>
-
-					<td>
-						23
-					</td>
-					<td>24</td>
-
-					<td>25</td>
-					<td>26</td>
-				</tr>	
-				<tr>
-<td class="date_has_event" id="date2">
-                    27
-					<div class="events">
-							<ul>
-								<li>
-									<span class="title">Круглый стол</span>
-									<span class="desc">
-                                    <b>Время начала:</b> с 14:00 до 16:30<br>
-                                    <b>Место проведения: </b> Конференц - зал<br>
-                                    </span>
-								</li>
-							</ul>
-						</div>
-					
-					</td>
-					<td>28</td>
-					<td>29</td>
-
-					<td>30</td>
-                    <td></td>
-					<td></td>
-					<td></td>
-                 </tr>
-
-			</tbody>
-		</table>
-     
-     </div>
-     
-    --> 
-     
-     <!-- Второй календарь  -->
-     <!--
-  	 <div class="ad_cal_3">
-     
-     <table cellspacing="0">
-			<thead>
-				<tr>
-					<th>ПН</th><th>ВТ</th><th>СР</th>
-					<th>ЧТ</th><th>ПТ</th><th>СБ</th>
-
-					<th>ВС</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td class="padding" colspan="4"></td>
-					<td> 1</td>
-					<td> 2</td>
-					<td> 3</td>
-				</tr>
-				<tr>
-					<td> 4</td>
-					<td> 5</td>
-					<td> 6</td>
-					<td> 7</td>
-					<td> 8</td>
-					<td> 9</td>
-					<td> 10</td>
-				</tr>
-				<tr>
-					<td>11</td>
-					<td>12</td>
-					<td>13</td>
-					<td>14</td>
-					<td>15</td>
-					<td>16</td>
-					<td>17</td>
-				</tr>
-				<tr>
-					<td>18</td>
-					<td>19</td>
-					<td>20</td>
-
-					<td>21</td>
-					<td>22</td>
-
-					<td>23</td>
-					<td>24</td>
-				</tr>	
-				<tr>
-					<td>25</td>
-					<td>26</td>
-					<td>27</td>
-
-					<td>28</td>
-					<td>29</td>
-					<td>30</td>
-                    <td>31</td>
-                    
-					<td class="padding"></td>
-				</tr>
-			</tbody>
-		</table>
-     
-     </div>
-     
-     -->
-
-     <!-- Третий календарь -->
-   	 <!--
-     <div class="ad_cal_2">
-     <table cellspacing="0">
-			<thead>
-				<tr>
-					<th>ПН</th><th>ВТ</th><th>СР</th>
-					<th>ЧТ</th><th>ПТ</th><th>СБ</th>
-					<th>ВС</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>1</td>
-					<td>2</td>
-					<td>3</td>
-					<td>4</td>
-                    <td>5</td>
-					<td>6</td>
-					<td>7</td>
-				</tr>
-				<tr>
-					<td>8</td>
-                    <td>9</td>
-					<td>10</td>
-					<td>11</td>
-					<td>12</td>
-					<td>13</td>
-                    <td>14</td>
-				</tr>
-				<tr>
-					<td>15</td>
-					<td>16</td>
-					<td>17</td>
-					<td>18</td>
-					<td>19</td>
-                    <td>20</td>
-					<td>21</td>
-				</tr>
-				<tr>
-					<td>22</td>
-					<td>23</td>
-					<td>24</td>
-					<td>25</td>
-					<td>26</td>
-					<td>27</td>
-					<td>28</td>
-				</tr>	
-				<tr>
-					<td>29</td>
-					<td>30</td>
-					<td></td>
-					<td></td>
-                    <td></td>
-					<td></td>
-					<td></td>
-                 </tr>
-
-			</tbody>
-		</table>
-     
-     </div>
-   <div>
- </div>
-
-</div>
--->
-<!-- Календари конец -->
-
-
-
-
-<!-- Событие на 31 января-->
-<!--
-					<script>
-						$('#date6').click(function() {
-							var c = $('<div class="box-modal" />');
-							c.html($('.b-text4').html());
-							c.prepend('<div class="box-modal_close arcticmodal-close"></div>');
-							$.arcticmodal({
-								content: c
-							});
-						});
-					</script>
-				
-
-			<div class="b-text4 g-hidden" style="display:none;">
-              
-			  <div class="pop-up-window">
-					
-					<div class="photos-cover">
-						<img src="images/248.png">
-					</div>
-					<div class="description-event">
-						<p class="title-event">
-							<b>МЕРОПРИЯТИЕ:</b> Мастер-класс <br /> «TDD на языке JavaScript»
-							<b>ДАТА:</b> 29.03.2015<br />
-							<b>ВРЕМЯ:</b> 10:00 - 17:00 <br />
-							<b>АДРЕС:</b> Адмиральский проспект, 34а <br />
-							<b>ТЕЛЕФОН:</b> +38048 705 30 45 <br />
-							<b>МЕСТО ПРОВЕДЕНИЯ:</b> Конференц - зал <br />
-							
-						</p>
-					</div>
-					<div class="extra-text-event">
-Многие слышали о методике разработки TDD когда тесты пишут перед тем как написать сам код. Но как это применить на практике не всегда понятно. Сделать первый шаг самостоятельно оказывается очень сложно, поэтому разработчики предпочитают писать тесты по старинке: покрывать уже написанный код.
-<br /><br />
-Мастер класс Сергея Селецкого рассчитан на разработчиков начального и среднего уровня, которые хотят перешагнуть через старые привычки и начать использовать преимущества TDD в полную силу.
-					</div>
-			  </div>
-            </div>
- 
-
-</div>
-
-</div>
--->
-
-<!-- Событие на 31 января-->
-
-
-
-
-
-
-
-
-
- <!-- ФОтоотчеты--> 
- 
-<script>var bgcolorlist=new Array("#f15524", "#0079b2");</script>  <!-- Рандомные цвета -->
- 
-<div class="foto_gall" id="sl_photo"><h1><span class="mob_hidden_title">ФОТО</span>ОТЧЕТЫ СОБЫТИЙ</h1></div>
-
-        <div class="mob_photo_slide">
-        	<div id="teamSlider_photo_mob">
-            	<ul class="slides">
-                	<li class="clearfix">
-                    	<div class="mob_video_block">
-                        	<img src="images/big1_1_video.jpg" width="480" height="240"/>
-                            <div class="mob_video_content">
-                            	<div class="mob_video_content_wrap" style="padding:15px; text-align:center;">
-                                    <iframe width="420" height="300" src="http://www.youtube.com/embed/dZFngqWg0jE?rel=0&autoplay=0" frameborder="0" allowfullscreen></iframe>
-                                    <p style="font-size:14px; font-family: GOTHAPROLIGHT; color:#000;">
-                                        <span style="font-style:italic; color:#999; font-size:12px; margin-right:10px;">4 марта 2014 г</span>
-                                        Всеукраинский семинар «1С-Битрикс» 2014
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mob_desc_block">
-                        	<h6>4 марта<br>2014 г</h6>
-                            <p>Всеукраинский<br>семинар «1С-Битрикс»<br>2014</p>
-                        </div>
-                        <div class="mob_img_block">
-                            <div class="highslide-gallery">
-                                <a id="thumb1" href="images/big1_1.jpg" class="highslide" onclick="return hs.expand(this, { slideshowGroup: 10 } )">
-                                	<div style="height:240px; width:240px; background:url('images/conf3_small.jpg');"/></div>
-                                </a>
-                                <div class="highslide-caption">Конференция</div>
-                                <div class="hidden-container">
-                                	<a href="images/big1_12.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 10 })"></a>
-                                    <div class="highslide-caption">Перерыв</div>
-                                    <a href="images/big1_11.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 10 })"></a>
-                                    <div class="highslide-caption">Конец конференции</div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                	<li class="clearfix">
-                    	<div class="mob_video_block">
-                        	<img src="images/hack1_video.jpg" width="480" height="240"/>
-                            <div class="mob_video_content">
-                            	<div class="mob_video_content_wrap" style="padding:15px;">
-                                    <iframe width="420" height="300" src="http://www.youtube.com/embed/xqs1mhmw1X8?rel=0&autoplay=0" frameborder="0" allowfullscreen></iframe>
-                                    <p style="font-size:14px; font-family: GOTHAPROLIGHT; color:#000;">
-                                        <span style="font-style:italic; color:#999; font-size:12px; margin-right:10px;">6 Ноября 2014г.</span>
-                                        Тренинг ExtJS в рамках проекта VertaMedia
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mob_desc_block">
-                        	<h6>6 Ноября<br>2014 г</h6>
-                            <p>Тренинг<br>ExtJS в рамках проекта<br>VertaMedia</p>
-                        </div>
-                        <div class="mob_img_block">
-                            <div class="highslide-gallery">
-                                <a id="thumb1" href="images/hack1.jpg" class="highslide" onclick="return hs.expand(this, { slideshowGroup: 11 } )">
-                                	<div style="height:240px; width:240px; background:url('images/conf5_small.jpg');"/></div>
-                                </a>
-                                <div class="highslide-caption">Участники</div>
-                                <div class="hidden-container">
-                                	<a href="images/hack2.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 11 })"></a>
-                                    <div class="highslide-caption">Доклад</div>
-                                    <a href="images/hack3.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 11 })"></a>
-                                    <div class="highslide-caption">Поздравления</div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                	<li class="clearfix">
-                    	<div class="mob_video_block">
-                        	<img src="images/hack4_video.jpg" width="480" height="240"/>
-                            <div class="mob_video_content">
-                            	<div class="mob_video_content_wrap" style="padding:15px;">
-                                    <iframe width="420" height="300" src="http://www.youtube.com/embed/lQ1c6jEydq4?rel=0&autoplay=0" frameborder="0" allowfullscreen></iframe>
-                                    <p style="font-size:14px; font-family: GOTHAPROLIGHT; color:#000;">
-                                        <span style="font-style:italic; color:#999; font-size:12px; margin-right:10px;">31 Января 2015г.</span>
-                                        StartUp Day
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mob_desc_block">
-                        	<h6>31 Января<br>2015г.</h6>
-                            <p>StartUp Day</p>
-                        </div>
-                        <div class="mob_img_block">
-                            <div class="highslide-gallery">
-                                <a id="thumb1" href="images/hack4.jpg" class="highslide" onclick="return hs.expand(this, { slideshowGroup: 12 } )">
-                                	<div style="height:240px; width:240px; background:url('images/conf6_small.jpg');"/></div>
-                                </a>
-                                <div class="highslide-caption">Доклад</div>
-                                <div class="hidden-container">
-                                	<a href="images/hack5.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 12 })"></a>
-                                    <div class="highslide-caption">Подготовка</div>
-                                    <a href="images/hack6.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 12 })"></a>
-                                    <div class="highslide-caption">Награждение</div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-
-<div style="width:100%;">
-  <div style="width:1200px; margin:0 auto; margin-top:20px; height:600px;" class="mob_hidden_block">
-     
-
-<div style="width:1200px; height:300px;">
-  
-<div style="float:left;">
-  <div class="highslide-gallery">
-      <a id="thumb8" href="images/big1_1.jpg" class="highslide" onclick="return hs.expand(this, { slideshowGroup: 8 } )">
-        <div style="height:300px; width:300px; background:url('images/VertaMedia_Experience_Sharing_se.jpg');" onmouseover="this.style.background=bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)]; document.getElementById('gal_desc_8').style.display='block';" onmouseout="this.style.background='url(images/VertaMedia_Experience_Sharing_se.jpg)'; document.getElementById('gal_desc_8').style.display='none'">
-          <div id="gal_desc_8" style="display:none;" class="gall_desc_text">
-             <div class="event_date">24 Марта 2016г.</div>
-             <div class="event_desc">VertaMedia Experience Sharing</div>
-          </div>
-        </div>
-      </a>
-    <div class="highslide-caption">VertaMedia Experience Sharing</div>
-      
-      <div class="hidden-container">
-
-        <a href="images/VertaMedia_Experience_Sharing_a.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 8 })"></a>
-        <div class="highslide-caption">VertaMedia Experience Sharing</div>
-        
-        <a href="images/VertaMedia_Experience_Sharing_b.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 8 })"></a>
-        <div class="highslide-caption">VertaMedia Experience Sharing</div>
-    
-        <a href="images/VertaMedia_Experience_Sharing_c.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 8 })"></a>
-        <div class="highslide-caption">VertaMedia Experience Sharing</div>
-    
-        <a href="images/VertaMedia_Experience_Sharing_d.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 8 })"></a>
-        <div class="highslide-caption">VertaMedia Experience Sharing</div>
-        
-        <a href="images/VertaMedia_Experience_Sharing_e.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 8 })"></a>
-        <div class="highslide-caption">VertaMedia Experience Sharing</div>
-        
-        <a href="images/VertaMedia_Experience_Sharing_s.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 8 })"></a>
-        <div class="highslide-caption">VertaMedia Experience Sharinge</div>
-                     
-      </div>
-  </div>
-</div>
-
-<div style="float:left;">
-  <div class="highslide-gallery">
-      <a id="thumb7" href="images/big1_1.jpg" class="highslide" onclick="return hs.expand(this, { slideshowGroup: 7 } )">
-        <div style="height:300px; width:300px; background:url('images/seedforumukraine.jpg');" onmouseover="this.style.background=bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)]; document.getElementById('gal_desc_7').style.display='block';" onmouseout="this.style.background='url(images/seedforumukraine.jpg)'; document.getElementById('gal_desc_7').style.display='none'">
-          <div id="gal_desc_7" style="display:none;" class="gall_desc_text">
-             <div class="event_date">13 Октября 2015г.</div>
-             <div class="event_desc">Seed Forum Ukraine</div>
-          </div>
-        </div>
-      </a>
-    <div class="highslide-caption">Seed Forum Ukraine</div>
-      
-      <div class="hidden-container">
-
-        <a href="images/Seed_Forum Ukraine.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 7 })"></a>
-        <div class="highslide-caption">Seed Forum Ukraine</div>
-        
-        <a href="images/Seed_Forum Ukraine_p.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 7 })"></a>
-        <div class="highslide-caption">Seed Forum Ukraine</div>
-    
-        <a href="images/Seed_Forum Ukraine_r.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 7 })"></a>
-        <div class="highslide-caption">Seed Forum Ukraine</div>
-    
-        <a href="images/Seed_Forum Ukraine_n.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 7 })"></a>
-        <div class="highslide-caption">Seed Forum Ukraine</div>
-        
-        <a href="images/Seed_Forum Ukraine_m.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 7 })"></a>
-        <div class="highslide-caption">Seed Forum Ukraine</div>
-        
-        <a href="images/Seed_Forum Ukraine_t.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 7 })"></a>
-        <div class="highslide-caption">Seed Forum Ukraine</div>
-        
-        <a href="images/Seed_Forum Ukraine_e.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 7 })"></a>
-        <div class="highslide-caption">Seed Forum Ukraine</div>
-        
-        <a href="images/Seed_Forum Ukraine_f.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 7 })"></a>
-        <div class="highslide-caption">Seed Forum Ukraine</div>
-        
-        <a href="images/Seed_Forum Ukraine_q.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 7 })"></a>
-        <div class="highslide-caption">Seed Forum Ukraine</div>        
-                     
-      </div>
-  </div>
-</div>
-<div style="float:left;">
-  <div class="highslide-gallery">
-      <a id="thumb4" href="images/start_up_1.jpg" class="highslide" onclick="return hs.expand(this, { slideshowGroup: 4 } )">
-        <div style="height:300px; width:300px; background:url('images/conf2.jpg');" onmouseover="this.style.background=bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)]; document.getElementById('gal_desc_4').style.display='block';" onmouseout="this.style.background='url(images/conf2.jpg)'; document.getElementById('gal_desc_4').style.display='none'">
-          <div id="gal_desc_4" style="display:none;" class="gall_desc_text">
-             <div class="event_date">31 Января 2015г.</div>
-             <div class="event_desc">StartUp Day</div>
-          </div>
-        </div>
-      </a>
-      <div class="highslide-caption">=)</div>
-      
-      <div class="hidden-container">
-        <a href="images/start_up_2.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 4 })"></a>
-        <div class="highslide-caption"></div>
-        
-        <a href="images/start_up_3.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 4 })"></a>
-        <div class="highslide-caption"></div>
-        
-        <a href="images/start_up_4.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 4 })"></a>
-        <div class="highslide-caption"></div>
-        
-        <a href="images/start_up_5.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 4 })"></a>
-        <div class="highslide-caption"></div>
-        
-        
-        <a href="images/start_up_6.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 4 })"></a>
-        <div class="highslide-caption"></div>
-        
-        <a href="images/start_up_7.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 4 })"></a>
-        <div class="highslide-caption"></div>
-        
-        <a href="images/start_up_8.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 4 })"></a>
-        <div class="highslide-caption"></div>
-        
-        <a href="images/start_up_9.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 4 })"></a>
-        <div class="highslide-caption"></div>
-        
-                <a href="images/start_up_10.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 4 })"></a>
-        <div class="highslide-caption"></div>
-        
-                <a href="images/start_up_11.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 4 })"></a>
-        <div class="highslide-caption"></div>
-        
-        
-                <a href="images/start_up_12.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 4 })"></a>
-        <div class="highslide-caption"></div>
-        
-                
-                <a href="images/start_up_13.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 4 })"></a>
-        <div class="highslide-caption"></div>
-        
-        
-                
-                <a href="images/start_up_14.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 4 })"></a>
-        <div class="highslide-caption"></div>
-        
-                
-                <a href="images/start_up_15.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 4 })"></a>
-        <div class="highslide-caption"></div>
-        
-      </div>
-  </div>
-</div>
-  
-  
- 
-<div style="float:left;">
-  <div class="highslide-gallery">
-      <a id="thumb5" href="images/hack1.jpg" class="highslide" onclick="return hs.expand(this, { slideshowGroup: 5 } )">
-        <div style="height:300px; width:300px; background:url('images/conf6.jpg');" onmouseover="this.style.background=bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)]; document.getElementById('gal_desc_5').style.display='block';" onmouseout="this.style.background='url(images/conf6.jpg)'; document.getElementById('gal_desc_5').style.display='none'">
-          <div id="gal_desc_5" style="display:none;" class="gall_desc_text">
-             <div class="event_date">13 Марта 2015г. - 15 Марта 2015г.</div>
-             <div class="event_desc">Конференция Hack4energy <br /> "Хакатон по энергоэффективности"</div>
-          </div>
-        </div>
-      </a>
-      <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-      
-      <div class="hidden-container">
-        <a href="images/hack2.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 5 })"></a>
-        <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-        
-        <a href="images/hack3.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb2', slideshowGroup: 5 })"></a>
-        <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-        
-        <a href="images/hack4.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb3', slideshowGroup: 5 })"></a>
-        <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-        
-        <a href="images/hack5.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb4', slideshowGroup: 5 })"></a>
-        <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-        
-        <a href="images/hack6.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb5', slideshowGroup: 5 })"></a>
-        <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-        
-           <a href="images/hack7.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb5', slideshowGroup: 5 })"></a>
-        <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-        
-           <a href="images/hack8.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb5', slideshowGroup: 5 })"></a>
-        <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-        
-         <a href="images/hack9.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb5', slideshowGroup: 5 })"></a>
-        <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-        
-         <a href="images/hack10.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb5', slideshowGroup: 5 })"></a>
-        <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-        
-         <a href="images/hack11.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb5', slideshowGroup: 5 })"></a>
-        <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-        
-         <a href="images/hack12.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb5', slideshowGroup: 5 })"></a>
-        <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-        
-         <a href="images/hack13.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb5', slideshowGroup: 5 })"></a>
-        <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-        
-         <a href="images/hack14.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb5', slideshowGroup: 5 })"></a>
-        <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-        
-        <a href="images/hack15.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb5', slideshowGroup: 5 })"></a>
-        <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-        
-        <a href="images/hack16.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb5', slideshowGroup: 5 })"></a>
-        <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-        
-        <a href="images/hack17.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb5', slideshowGroup: 5 })"></a>
-        <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-        
-        <a href="images/hack18.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb5', slideshowGroup: 5 })"></a>
-        <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-        
-        <a href="images/hack19.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb5', slideshowGroup: 5 })"></a>
-        <div class="highslide-caption">"Хакатон по энергоэффективности"</div>
-        
- 
-        
-        
-      </div>
-  </div>
-</div>
-
- 
-  
-<div style="float:left;">
-  <div class="highslide-gallery">
-      <a id="thumb6" href="images/bad1.jpg" class="highslide" onclick="return hs.expand(this, { slideshowGroup: 6 } )">
-        <div style="height:300px; width:300px; background:url('images/bad1.jpg');" onmouseover="this.style.background=bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)]; document.getElementById('gal_desc_6').style.display='block';" onmouseout="this.style.background='url(images/bad1.jpg)'; document.getElementById('gal_desc_6').style.display='none'">
-          <div id="gal_desc_6" style="display:none;" class="gall_desc_text">
-             <div class="event_date">21 Марта 2015г.</div>
-             <div class="event_desc">Мастер-класс "От идеи к продукту",<br /> Евгений Плохой.</div>
-          </div>
-        </div>
-      </a>
-      <div class="highslide-caption">Мастер-класс</div>
-      
-      <div class="hidden-container">
-     <a href="images/bad.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 6 })"></a>
-        <div class="highslide-caption">Мастер-класс</div>
-      
-
-      </div>
-  </div>
-</div>
-
-
-  
-
-
-
-<div style="width:1200px; height:300px;">
-
-
-
-<div style="float:left;">
-  <div class="highslide-gallery">
-      <a id="thumb1" href="images/big1_1.jpg" class="highslide" onclick="return hs.expand(this, { slideshowGroup: 1 } )">
-        <div style="height:300px; width:300px; background:url('images/conf3.jpg');" onmouseover="this.style.background=bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)]; document.getElementById('gal_desc_1').style.display='block';" onmouseout="this.style.background='url(images/conf3.jpg)'; document.getElementById('gal_desc_1').style.display='none'">
-          <div id="gal_desc_1" style="display:none;" class="gall_desc_text">
-             <div class="event_date">4 Декабря 2014г.</div>
-             <div class="event_desc">Конференция<br>Европейская маркетинговая система,<br /> стимулирующая рост торговли в 2 раза</div>
-          </div>
-        </div>
-      </a>
-      <div class="highslide-caption">Конференция</div>
-      
-      <div class="hidden-container">
-        <a href="images/big1_12.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 1 })"></a>
-        <div class="highslide-caption">Перерыв</div>
-        
-        <a href="images/big1_11.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 1 })"></a>
-        <div class="highslide-caption">Конец конференции</div>
-      </div>
-  </div>
-</div>
-  
-<div style="float:left;">
-  <div class="highslide-gallery">
-      <a id="thumb3" href="images/big1_1.jpg" class="highslide" onclick="return hs.expand(this, { slideshowGroup: 3 } )">
-        <div style="height:300px; width:300px; background:url('images/conf1.jpg');" onmouseover="this.style.background=bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)]; document.getElementById('gal_desc_3').style.display='block';" onmouseout="this.style.background='url(images/conf1.jpg)'; document.getElementById('gal_desc_3').style.display='none'">
-          <div id="gal_desc_3" style="display:none;" class="gall_desc_text">
-             <div class="event_date">22 Ноября 2014г.</div>
-             <div class="event_desc">V Конференция<br>разработчиков и пользователей свободного программного обеспечения FOSS Sea 2014 Infrastructure for Researchers</div>
-          </div>
-        </div>
-      </a>
-      <div class="highslide-caption">Доклад</div>
-      
-      <div class="hidden-container">
-        <a href="images/big2_1.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 3 })"></a>
-        <div class="highslide-caption">Слушатели</div>
-        
-        <a href="images/big3_1.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 3 })"></a>
-        <div class="highslide-caption">Игры )</div>
-      </div>
-  </div>
-</div> 
-
-<div style="float:left;">
-  <div class="highslide-gallery">
-      <a id="thumb2" href="images/big1_2.jpg" class="highslide" onclick="return hs.expand(this, { slideshowGroup: 2 } )">
-        <div style="height:300px; width:300px; background:url('images/conf4.jpg');" onmouseover="this.style.background=bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)]; document.getElementById('gal_desc_2').style.display='block';" onmouseout="this.style.background='url(images/conf4.jpg)'; document.getElementById('gal_desc_2').style.display='none'">
-          <div id="gal_desc_2" style="display:none;" class="gall_desc_text">
-             <div class="event_date">6 Ноября 2014г.</div>
-             <div class="event_desc">Тренинг<br>ExtJS в рамках проекта VertaMedia</div>
-          </div>
-        </div>
-      </a>
-      <div class="highslide-caption">Задумчивый перерыв</div>
-      
-      <div class="hidden-container">
-        <a href="images/big1_3.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 2 })"></a>
-        <div class="highslide-caption">Обсуждение тренинга</div>
-      </div>
-  </div>
-</div>
-</div>
-
-
-
-</div>
-
-
-    
-    
-    
-     
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-<div style="width:100%;" id="sl_halls">
-
-
-<div id="halls">
-        <div class="halls">
-            <h1>&nbsp;<br>ЗАЛЫ</h1>
-            <div class="mob_trigger"><img src="images/icons/arrow_up.png"/></div>
-            <p class="s_title">New York</p>
-            <p class="b_title">ЗАЛ КОНФЕРЕНЦИЙ <span><b>150 м</b><sup><small>2</small></sup></span>  </p>
-			<br />
-            
-              <div class="control-panel">
-                    
-                            <a id="thumb9" href="images/konferents_zal.jpg" class="highslide" onclick="return hs.expand(this, { slideshowGroup: 9 } )"> 
-                                <div class="view-btn">
-                                    <div id="dd-foto">
-                                      <img src="images/view.png" alt="Обзор"><br>
-                                        <span>Обзор</span>
-                                    </div>
-                                </div> 
-                            </a>
-                              <div class="hidden-container"> 
-                                <a href="images/konferents_zal-1.JPG" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 9 })"></a>
-                                <a href="images/konferents_zal-2.JPG" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 9 })"></a>
-                                <a href="images/keitering.jpg" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 9 })"></a>
-                                <a href="images/keitring1.JPG" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 9 })"></a>
-                                <a href="images/keitering2.JPG" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 9 })"></a>
-                                <a href="images/keitering3.JPG" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 9 })"></a>
-                                <a href="images/keitering4.JPG" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 9 })"></a>                                
-                            </div>      
-                            
-                    <div class="instr-btn">
-                    <a href="files/instruction.doc" download="" class="download-url"><img src="images/instr.png"></a><br>
-                    <span>Инструкция</span>
-                    </div>
-               
-        
-            </div>
-             <br />
-
-
-					
-					<div class="b-text30 g-hidden" style="display:none;">
-              
-			  
-						<img src="images/big_hall.jpg">					
-			  
-                    </div>
-					
-					
-					
-					
-					
-            <p class="text_light mob_hidden">
-			Большой конференц-зал «New York» (150 м2), - делится на три зоны: «East side», «Mid town», «West  side», каждая вместимостью <br /> от 25 до 50 посадочных мест, которые при желании легко объединяются в одно большое пространство, вместимостью <br /> до 100 посадочных мест. 
-
-                
-            </p>
-            <p class="text_light">
-           Располагает 6-ю передвижными столами, которые можно поставить по-разному (в зависимости от мероприятия и цели встречи). 
-            </p>
-            
-            <p class="text_light mob_shown">Также большой зал можно разделить на 3 части, сделать зонирование и если нужен круглый стол на 10 человек, мы зашториваем одну зону и получается очень уютно.</p>
-<br />
-            <p class="title">В конференц-зале «New York» в вашем распоряжении будут:</p>
-            
-            <!---////////-->
-
-            <div id="icons_list">
-
-                <div id="l_icons">
-                    <div>
-                        <img src="images/icons/phots.png"><p class="text_light">2 проектора<br /> с возможностью<br /> подключения кабелем<br /> к компьютеру через<br /> hdmi и vga;</p>
-                    </div>
-                    <div>
-                        <img src="images/icons/jabra.png">
-                        <p class="text_light">беспроводной<br /> спикерфон для<br /> проведения<br /> конференц связи;</p>
-                    </div>
-                    <div class="third">
-                        <img src="images/icons/wifi.png">
-                        <p class="text_light"><br>Wi-Fi</p>
-                    </div>
-
-                </div>
-
-                <div id="c_icons">
-                    <div>
-                        <img src="images/icons/dist.png"><p class="text_light">2 экрана под проектор<br /> (3х4 метра, с пультовым <br />управлением);</p>
-                    </div>
-                    <div>
-                        <img src="images/icons/tv.png">
-                        <p class="text_light">жидкокристаллический<br /> телевизор Samsung с<br /> Led подсветкой (50”)<br /> со smartTV;</p>
-                    </div>
-
-                    <div class="third">
-                        <img src="images/icons/wc.png">
-                        <p class="text_light">встроенная акустическая<br /> система во всех <br />помещениях, включая<br /> уборные;</p>
-                    </div>
-                </div>
-                <div id="r_icons">
-                    <div>
-                        <img src="images/icons/mic.png"><p class="text_light">2 радио микрофона и <br /> 1 проводной;</p>
-                    </div>
-                    <div>
-                        <img src="images/icons/diagr.png">
-                        <p class="text_light"><br>flipcharts и доски;</p>
-                    </div>
-                    <div class="third">
-                        <img src="images/icons/wind.png">
-                        <p class="text_light"><br>все помещения<br />кондиционированы.</p>
-                    </div>
-                </div>
-
-            </div>
-            
-            <ul class="mob_icons">
-            	<li><img src="images/icons/phots_small.png"/><span>2 проектора с возможностью подключения кабелем к компьютеру через hdmi и vga;</span></li>
-                <li><img src="images/icons/jabra_small.png"/><span>беспроводной спикерфон для проведения конференц связи;</span></li>
-                <li><img src="images/icons/wifi_small.png"/><span>Wi-Fi;</span></li>
-                <li><img src="images/icons/mic_small.png"/><span>2 радио микрофона и 1 проводной;</span></li>
-                <li><img src="images/icons/wind_small.png"/><span>все помещения кондиционированы;</span></li>
-                <li><img src="images/icons/dist_small.png"/><span>2 экрана под проектор (3х4 метра, с пультовым управлением);</span></li>
-                <li><img src="images/icons/tv_small.png"/><span>жидкокристаллический телевизор Samsung с Led подсветкой (50”) со smartTV;</span></li>
-                <li><img src="images/icons/wc_small.png"/><span>встроенная акустическая система во всех помещениях, включая уборные;</span></li>
-                <li><img src="images/icons/diagr_small.png"/><span>flipcharts и доски;</span></li>
-            </ul>
-
-
-
-        </div>
-
-    </div>
-
-</div>
-
-
-
-
- <div id="scheme-menu">
-        <div class="scheme-title">
-            <p>Возможные схемы рассадки</p>
-        </div>
-
-        <div class="scheme-block">
-            <!------------1 SLIDE ------------->
-   
-
-   
-   <section class="team text-center section-padding" id="team">
-          <div class="container">
-            <div class="row">
-              <div class="team-wrapper">
-                <div id="teamSlider">
-                  <ul class="slides">
-                    <li>
-                      <div class="col-md-4 wp5">
-                       <div class="scheme-1">
-                    <div class="title-scheme1">
-                        <p class="scheme_header">КОНФЕРЕНЦИЯ<br />
-                        (театр, семинар)</p>
-                        <p class="scheme_description"><span class="scheme_description22">вместимость до 100 человек</span></p>
-                    </div>
-                    <div class="scheme-photo">
-                        <img src="images/scheme1.png">
-                    </div>
-                </div>
-                <div class="scheme-line"></div>
-                      </div>
-                      
-                      <div class="col-md-4 wp5 delay-05s">
-                       <div class="scheme-1">
-            <div class="title-scheme1">
-                <p class="scheme_header">КРУГЛЫЙ СТОЛ<br />
-                    (переговорная, общий стол)</p>
-                <p class="scheme_description"><span class="scheme_description22">вместимость до 50 человек</span></p>
-            </div>
-            <div class="scheme-photo">
-                <br /><img src="images/scheme2.png">
-            </div>
-        </div>
-            <div class="scheme-line"></div>
-                      </div>
-                      <div class="col-md-4 wp5 delay-1s">
-                       <div class="scheme-1">
-                <div class="title-scheme1">
-                    <p class="scheme_header">КЛАСС<br /> </p>
-                    <p class="scheme_description"><span class="scheme_description22">вместимость до 40 человек</span></p>
-                </div><br />
-                <div class="scheme-photo">
-                    <img src="images/scheme3.png">
-                </div>
-            </div>
-            <div class="scheme-line"></div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="col-md-4 wp5">
-                        <div class="scheme-1">
-            <div class="title-scheme1">
-               <p class="scheme_header"><br /><br />
-                        <br /></p>
-                        <p class="scheme_description"><span class="scheme_description22"><br /></span></p>
-            </div>
-            <div class="scheme-photo">
-                <img src="images/scheme4.png">
-            </div>
-        </div>
-            <div class="scheme-line"></div>
-                      </div>
-                      <div class="col-md-4 wp5 delay-05s">
-                       <div class="scheme-1">
-            <div class="title-scheme1">
-                <p class="scheme_header">ФУРШЕТ (БАНКЕТ)<br />
-                    (E,U,T расположение столов)</p>
-                <p class="scheme_description"><span class="scheme_description22">вместимость до 50 человек<br /><br /></span></p>
-            </div>
-            <div class="scheme-photo">
-                <img src="images/scheme5.png">
-            </div>
-        </div>
-            <div class="scheme-line"></div>
-                      </div>
-                      <div class="col-md-4 wp5 delay-1s">
-                     <div class="scheme-1">
-            <div class="title-scheme1">
-               <p class="scheme_header"><br /><br />
-                        <br /></p>
-                        <p class="scheme_description"><span class="scheme_description22"><br /></span></p>
-            </div>
-            <div class="scheme-photo">
-                <img src="images/scheme6.png">
-            </div>
-        </div>
-            <div class="scheme-line"></div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-   
-
-        </div>
-        
-        <div class="mob_scheme_slide">
-        	<div id="teamSlider_mob">
-            	<ul class="slides">
-                	<li>
-                    	<h6>Конференция<br>(театр, семинар)</h6>
-                        <p>вместимость до 130 человек</p>
-                    	<img src="images/scheme1.png">
-                    </li>
-                    <li>
-                    	<h6>Круглый стол<br>(переговорная, общий стол)</h6>
-                        <p>вместимость до 50 человек</p>
-                    	<img src="images/scheme2.png">
-                    </li>
-                    <li>
-                    	<h6>Класс</h6>
-                        <p>вместимость до 48 человек</p>
-                    	<img src="images/scheme3.png">
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    
-    
-    <div id="sl_terras">
-    <div id="halls">
-        <div class="halls lounge clearfix">
-            <div class="mob_trigger"><img src="images/icons/arrow_up.png"></div>
-            <p class="s_title">Central Park</p>
-            <p class="b_title">ЛАУНЖ ЗОНА  <span><b>33 м</b><sup><small>2</small></sup></span></p>
-            
-            <br>
-            
-             <div class="control-panel">
-                    
-                    <a id="thumb11" href="images/lounge1.JPG" class="highslide" onclick="return hs.expand(this, { slideshowGroup: 21 } )"> 
-                                <div class="view-btn">
-                                    <div id="dd-foto">
-                                      <img src="images/view.png" alt="Обзор"><br>
-                                        <span>Обзор</span>
-                                    </div>
-                                </div> 
-                            </a>
-                              <div class="hidden-container"> 
-                                <a href="images/lounge2.JPG" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb11', slideshowGroup: 21 })"></a>
-                                <a href="images/lounge3.JPG" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb11', slideshowGroup: 21 })"></a>
-                                <a href="images/lounge4.JPG" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb11', slideshowGroup: 21 })"></a>                                    
-                            </div>
-                    </div>
-             <br>
-            <p class="text_light">
-                Лаунж зона располагает мягкими креслами пуфами и столиком для проведения неформальных бесед, также вы сможете <br>
-                поиграть в Sony Playstation, настольный футбол и различные игры, например в шахматы, шашки, карты, манчкин и т. д.
-            </p>
-            <br><br>
-        </div>
-		<div class="halls terrain clearfix">
-            <div class="mob_trigger"><img src="images/icons/arrow_up.png"></div>
-            <p class="b_title">ТЕРРАСА  <span><b>35 м</b><sup><small>2</small></sup></span></p>
-            <br>
-            
-                    <div class="control-panel" style="display:inline-block;">
-                    
-                    <a id="thumb10" href="images/terrasa2.JPG" class="highslide" onclick="return hs.expand(this, { slideshowGroup: 20 } )"> 
-                            <div class="view-btn">
-                                    <div id="dd-foto">
-                                      <img src="images/view.png" alt="Обзор"><br>
-                                        <span>Обзор</span>
-                                    </div>
-                            </div> 
-                            </a>
-                              <div class="hidden-container"> 
-                                <a href="images/terrasa1.JPG" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'thumb10', slideshowGroup: 20 })"></a>                                
-                            </div>
-                    </div> 
-            <br />
-            <p class="text_light">
-                Наша Терраса – это отличное место, чтобы выпить чашечку ароматного кофе или чая, подышать свежим воздухом и <br>
-                набраться сил в перерыве во время конференции или семинара. 
-            </p>
-        </div>
-    </div>
-	</div>
-    
-
-
-
-
-
-
-
- <div id="tarifs-menu">
-        <div class="tarifs-title">
-            <p>ТАРИФЫ</p>
-        </div>
-        <div class="tarifs-title">
-            <p class="light_text">СТОИМОСТЬ АРЕНДЫ</p>
-        </div>
-        <div class="tarifs-info clearfix container">
-
-            <div class="col-md-4 l_tarifs-info">
-                <p>БОЛЬШОЙ ЗАЛ <br /> <span><b>45 м<sup><small>2</small></sup></b></span> <br />
-                    <img src="images/line_bot.png">
-                </p>
-                <p class="price_t"> 150 <span>грн/час</span></p>
-            </div>
-            <div class="col-md-4 r_tarifs-info">
-                <p>БОЛЬШОЙ ЗАЛ <br /><span><b>65 м<sup><small>2</small></sup> или 85 м<sup><small>2</small></sup></b></span><br />
-                    <img src="images/line_bot.png">
-                </p>
-                <p class="price_t"> 200 <span>грн/час</span></p>
-            </div>
-            <div class="col-md-4 r_tarifs-info">
-                <p>БОЛЬШОЙ ЗАЛ <br /> <span><b>150 м<sup><small>2</small></sup></b></span><br />
-                    <img src="images/line_bot.png">
-                </p>
-                <p class="price_t"> 300 <span>грн/час</span></p>
-            </div>
-
-        </div>
-
-        <div class="tarifs-block">
-
-                Действуют приятные скидки, звоните, обращайтесь.<br />
-                Всегда рады Вам помочь!
-
-
-        </div>
-
-        <br />
-           
-              <table class="price" border="1" style="text-align:center;">
-                 <caption>Стоимость аренды оборудования, конференц-зала и комнаты отдыха.</caption>
-                 <tr>
-                  <th>Услуга/оборудование</th>
-                  <th>Конференц-зал (150,0м2)  <br /> грн/час</th>
-                  <th>Лаунж-зона и Терраса (25+35м2) <br /> грн/час</th> 
-                 </tr>
-                 <tr>
-	                 <td>Аренда зала до 100 мест</td>
-	                 <td>300,00</td>
-	                 <td>50,00</td>
-                 </tr>
-                 <tr>
-	                 <td>Кондиционер</td>
-	                 <td>входит в стоимость</td>
-	                 <td>входит в стоимость</td>
-                 </tr>
-                 <tr>
-	                 <td>Кулер</td>
-	                 <td>входит в стоимость</td>
-	                 <td>входит в стоимость</td>
-                 </tr>
-                <tr>
-	                <td>Беспроводной интернет</td>
-	                <td>входит в стоимость</td>
-	                <td>входит в стоимость</td>
-                </tr>
-                <tr>
-	                <td>Трибуна</td>
-	                <td>входит в стоимость</td>
-	                <td>нет</td>
-                </tr>
-                <tr>
-	                <td>Экран под проектор</td>
-	                <td>входит в стоимость</td>
-	                <td>нет</td>
-                </tr>
-                <tr>
-	                <td>Маркерная доска, flipchart</td>
-	                <td>входит в стоимость</td>
-	                <td>входит в стоимость</td>
-                </tr>
-                <tr>
-                	<td colspan=4>Дополнительное оборудование</td>
-                </tr>
-                <tr>
-	                <td>Комп. "МАС" с  ТВ экраном 50", веб-камерой и выходом в интернет для конференций</td>
-	                <td>100 грн/ч</td>
-	                <td>нет</td>
-                </tr>
-                <tr>
-	                <td>Беспроводной спикерфон для проведения конференц-связи</td>
-	                <td>20,0 грн/час</td>
-	                <td>нет</td>
-                </tr>
-                <tr>
-	                <td>Мультимедиапроектор</td>
-	                <td>50,0 грн/час</td>
-	                <td>нет</td>
-                </tr>
-                <tr>
-	                <td>Звукоусилительное оборудование</td>
-	                <td>20,0 грн/час</td>
-	                <td>нет</td>
-                </tr>
-                <tr>
-                	<td>Радиомикрофон</td>
-                	<td>10,0 грн/час</td>
-                	<td>нет</td>
-                </tr>
-                <tr>
-                	<td>Кликер/лазерная указка</td>
-                	<td>10,0 грн/час</td>
-                	<td>нет</td>
-                </tr>
-                <tr>
-                	<td rowspan="8">Примечание</td>
-                </tr>
-                <tr>
-                	<td colspan="2">Минимальное время аренды помещений и оборудования: 2-а часа</td>
-                </tr>
-                <tr>
-                	<td colspan="2">Меню и стоимость кофе-брейков и бизнес-ланчей оговариваются дополнительно</td>
-                </tr>
-                <tr>
-                	<td colspan="2">При необходимости рекомендуем организацию по кейтеринг-сопровождению</td>
-                </tr>
-                <tr>
-                	<td colspan="2">Обеспечение обслуживания  техническим персоналом оговаривается отдельно</td>
-                </tr>
-                <tr>
-                	<td colspan="2">Бронь считается гарантированной с момента предоплаты мероприятия - 100%</td>
-                </tr>
-                <tr>
-                	<td colspan="2">Комната отдыха и терраса сдаются только при аренде конференц-зала</td>
-                </tr>
-                <tr>
-                	<td colspan="2">При аренде  более 7-ми часов и постоянным клиентам предоставляется скидка 10%</td>
-                </tr>
-            </table>
-
-    
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-<!-------------CONTACTS --------------------------->
-<div id="sl_contacts">
-    <div id="contacts">
-        <div class="left-bg"></div>
-        <div class="right-bg"></div>
-        <div class="contacts">
-
-            <p class="header-contacts">КОНТАКТЫ</p>
-            <p class="title-contacts">Бизнес-центр "Адмиральский"</p>
-
-            <div class="left-content">
-                <p class="title-medium">НАШ АДРЕС:</p>
-                <p class="text-lights">
-                    65059, Украина, г. Одесса,<br>
-                    Адмиральский проспект, 34а
-                </p> <br>
-                <p class="title-medium">ВРЕМЯ РАБОТЫ:</p>
-                <p class="text-lights">Мы работаем ежедневно, круглосуточно</p>
-            </div>
-            <div class="center-content">
-                <p class="title-medium">ТЕЛЕФОНЫ:</p>
-                <p class="text-lights">
-				<span class="ringo_phone"><a href="tel:+380487053048">+380 (48) 705 30 48</a></span>
-                <!-- Start Hide telephone for Ringostat #    
-				+380 (48) 705 30 45<br>
+<!-- CHANGEABLE UNIQUE SECTOIN ID -->
+<section class="menu">
+
+<!-- START FIXED HEADER DIV -->
+<!-- START CONTAINER -->
+   <div class="w-container container">
+      <div class="w-row">
+         <!-- START COLUMN 3 -->
+         <div class="w-col w-col-3 logo">
+            <!-- START LOGO -->
+            <a href="#home"><img class="logo" src="images/logo.png" alt="Аренда Спецтехники"></a>
+            <!-- END LOGO -->
+         </div><!-- END COLUMN 3 -->
+         <!-- START COLUMN 9 -->
+         <div class="w-col w-col-9">
+            <!-- START NAVIGATION -->
+            <div class="w-nav navbar" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
+               <!-- START CONTAINER -->
+               <div class="w-container nav">
+                  <!-- START NAVIGATION LINKS -->
+                  <nav class="w-nav-menu nav-menu" role="navigation">
+                     <a class="w-nav-link menu-li" href="#about">О НАС</a>
+                     <a class="w-nav-link menu-li" href="#advantages">ПРИЕМУЩЕСТВА</a>
+                     <a class="w-nav-link menu-li" href="#price">ЦЕНЫ И ТЕХНИКА</a>
+                     <a class="w-nav-link menu-li" href="#testimonials">ОТЗЫВЫ</a>
+                     <a class="w-nav-link menu-li" href="#contact">КОНТАКТЫ</a>
+                     <a class="w-nav-link menu-li" href="tel:380635998090" itemprop="telephone" style="background:#2c3e50;color:#fff"><i class="fa fa-phone"></i> +380 (63) 59 98 090</a>
+                  </nav>
+                  <!-- END NAVIGATION LINKS -->        
                   
-                </p>
-                <p class="text-lights">
-                     +380 (48) 705 30 48<br> 
-                   -->
-                </p> <br>
-                <p class="title-medium">EMAIL:</p>
-                <p class="text-lights"><a href="mailto:resrevation@admiralsky.od.ua">resrevation@admiralsky.od.ua</a></p>
-
+                  <!-- START MOBILE NAVIGATION BUTTON * DO NOT DELETE THIS DIV* -->
+                  <div class="w-nav-button">
+                     <div class="w-icon-nav-menu"></div>
+                  </div>
+                  <!-- END MOBILE NAVIGATION BUTTON -->
+               </div>
+               <!-- END CONTAINER -->
             </div>
-            <div class="right-content">
-                <div class="facebook-icon">
-                    <img src="images/facebook.png">
-                </div>
+            <!-- END NAVIGATION -->
+         </div>
+         <!-- END COLUMN 9 -->
+      </div>
+   </div>
+<!-- END CONTAINER -->
+<!-- END FIXED HEADER DIV -->
+</section>
+<!-- END SECTION -->
+<!-- END HEADER -->
 
-                <p class="title-medium">МЫ НА FACEBOOK</p>
-                <p class="text-lights"><a href="https://facebook.com/Admiralskyi">https://facebook.com/admiralskyi</a> <br />&nbsp;</p>
-                <br />
-                    <div class="vk-icon">
-                        <img src="images/vk.png">
-                    </div>
-                <p class="title-medium">МЫ ВКОНТАКТЕ</p>
-                <p class="text-lights"><a href="http://vk.com/odessaadmiralsky">http://vk.com/odessaadmiralsky</a></p>
+<!-- START SLIDER SECTION -->
+<section id="home">
+  <div class="header-parallax" data-stellar-background-ratio="0.5">
+    <div class="slidersection">
+      
+      <div class="overlay">
 
-            </div>
-
-
+        <div class="center fixed-content">
+          <div class="center-fix">
+          <h1 class="underline animated fadeInDown mhh">Аренда автовышки</h1>
+          <p class="animated fadeInUp delay-05s">Спецтехника: <strong>аренда автовышки</strong> и бурокрана <b class="green">в Одессе</b></p>
+          <a class="button animated fadeInUp delay-1s" href="#advantages" style="margin-right: 20px;">Приемущества</a><a class="button border animated fadeInUp delay-1s" href="#price">Цены</a>
         </div>
+        </div>
+      </div>
     </div>
-</div>	
+  </div>
+</section>
+<!-- END SLIDER SECTION -->
 
+<!-- START ABOUT SECTION -->
+<section id="about">
+   <div class="row-back">
+      <div class="w-container wrap">
+         <div class="center">
+            <h2 class="underline">О НАС</h2>
+               <p>
+                  ЧП "ЭнергостройсервисПлюс" предоставляет <strong>услуги автовышки</strong>, бурокрана и другой спецтехники в Одессе.
+               </p>
+               <h3>Спецтехника в аренду в Одессе</h3>
+                  <ol>
+                     <li>1. Автовышка <b>Mitsubishi Canter</b> - Длина стрелы 14.5м</li>
+                     <li>2. Автовышка <b>ГАЗ 3307 АП17</b> - Длиной стрелы 17м</li>
+                     <li>3. Автовышка <b>MAN</b> - Длина стрелы 26м</li>
+                     <li>4. <b>Бурокран</b> МТЗ 82</li>
+                     <li>5. Микроавтобус <b>Ford Transit</b> - Грузоподъемность до 2т</li>
+                  </ol>
+                  <br>
+               <p>Аренда спецтехники это выгодная форма использования транспорта для нужд любого предприятия или физического лица, дает возможность использования техники без её покупки. Так же контроль за техническим состоянием ведет предприятие арендодатель, то есть наша компания.</p>
+               <p style="font-size:12px">
+	              <i>*Все цены на сайте указаны с без учета НДС.</i>
+                 <br>
+                 <i>**Способ оплаты - наличный и безналичный платеж</i>
+	            </p>
+            <a class="button animated fadeInUp delay-1s" href="#price" style="margin-right: 20px;">Автовышки</a> <a class="button border animated fadeInUp delay-1s" href="#contact">Связаться с нами</a>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- END ABOUT SECTION -->
 
-    
-    <!--- GOOGLE MAPS -->
-            <div id="map-canvas" style="height:400px; margin:0px; padding:0px;"></div>
-            
-            
-            
-            
-            
-            
-            
-            <!--- FOOTER -->
-            <div id="footer">
-            	
-              
-                
-                <nav class="cl-effect-21" style="background:none; font-size:12px; margin-top:35px; text-align:center; text-decoration:none;">
-					<a href="#about-us">О нас</a>
-					<a href="#sl_anons">Анонс</a>
-                    <a href="#sl_photo">Фотоотчеты событий</a>
-					<a href="#sl_halls">Залы</a>
-					<a href="#tarifs-menu">Тарифы</a>
-                    <a href="#sl_contacts">Контакты</a>
-				</nav>
-                
-                
-                <div id="img-footer">
-				    <img src="images/footer.png">
-                </div>
+<!-- START ADVANTAGES SECTION -->
+<section id="advantages">
+   <div class="row-gree">
+      <div class="w-container wrap-normal">
+         <div class="center">
+            <h2 class="underline">НАШИ ПРИЕМУЩЕСТВА</h2>
+         </div>
+      </div>
+   </div>
+
+   <div class="parallax-back" data-stellar-background-ratio="0.5">
+      <div class="opcaity">
+         <div class="w-container wrap-normal">
+            <div class="w-col w-col-3 wp2">
+               <div class="icon-box">
+                  <i class="fa fa-cog fa-5x"></i>
+                  <h4 class="icons-heading">НАДЕЖНО</h4>
+                  <p>Наша техника находится в полностью исправном состоянии, и готова к проведению работ на длительные сроки</p>
+               </div>
             </div>
 
+            <div class="w-col w-col-3 wp2 delay-05s">
+               <div class="icon-box">
+                  <i class="fa fa-thumbs-o-up fa-5x"></i>
+                  <h4 class="icons-heading">УДОБНО</h4>
+                  <p>Спецтехника принадлежит «Энергостройсервис Плюс»<br>Работаем без услуг посредников</p>
+               </div>
+            </div>
 
+            <div class="w-col w-col-3 wp2 delay-1s">
+               <div class="icon-box">
+                  <i class="fa fa-users fa-5x"></i>
+                  <h4 class="icons-heading">КАЧЕСТВЕННО</h4>
+                  <p>Более 5 лет опыта работы<br>Профессиональная команда<br>Надежная техника</p>
+               </div>
+            </div>
 
+            <div class="w-col w-col-3 wp2 delay-1-5s">
+               <div class="icon-box">
+                  <i class="fa fa-calendar-check-o fa-5x"></i>
+                  <h4 class="icons-heading">ДОСТУПНО</h4>
+                  <p>Работаем Ежедневно<br>Доступные условия аренды<br>Без ограничений по срокам</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- END ADVANTAGES SECTION -->
 
-        <script src="js/waypoints.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/scripts.js"></script>
-        <script src="js/jquery.flexslider.js"></script>
-        <script src="js/modernizr.js"></script>
+<!-- PRICE SECTION -->
+<section id="price">
+   <div class="row-gree">
+      <div class="w-container wrap-normal">
+         <div class="center">
+            <h2 class="underline">ЦЕНЫ И ТЕХНИКА</h2>
+            <p style="font-size:16px;">Заказывая услугу, <strong>аренда автовышки</strong> или аренде бура именно в нашей компании, в Одессе, Вы можете быть уверенны, в качестве предоставляемых услуг, потому как уже при первом звонке наши работники Вам окажут квалифицированную консультацию и проинструктируют насчет требуемой подготовки к проведению работ. Наша компания обязуется обеспечить подачу спецтехники на необходимый и указный за ранее Вами объект точно в указанное время. Мы уверены, что вы останетесь довольны нашим сервисом, мы также убеждены что если в дальнейшем возникнет подобного рода необходимость в услугах спецтехники в Одессе, Вы конечно же обратитесь к нам.</p>
+         </div>
+      </div>
+   </div>
 
+   <div class="row-back">
+      <div class="w-container wrapper">
+         <div class="pricing-table">
+            <div class="w-col w-col-3-5 wp2">
+               <div class="pricing-section">
+                  <div class="pricing-header">
+                     <h3>Автовышка Mitsubishi Canter</h3>
+                     <img src="images/arenda-avtovishki-canter-14,5m.jpg" title="Автовышка Mitsubishi Canter - Длина стрелы 14.5м" alt="Аренда автовышки в Одессе - Mitsubishi Canter">
+                  </div>
+                  <div class="pricing-content">
+                     <ul class="ul-price">
+                     <li>Длина стрелы 14,5 метров</li>
+                     <li>Минимальный выезд 3 часа</li>                  
+                     <li>Цена за смену (8 часов):</li>
+                     </ul>
+                  </div>
+                  <div class="dropdown closed">
+                    <div class="title">ЦЕНА</div>
+                    <ul>
+                      <li>*150 грн/час</li>
+                      <li>*1200 грн/смена</li>
+                    </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="w-col w-col-3-5 wp3 delay-05s">
+               <div class="pricing-section">
+                  <div class="pricing-header">
+                     <h3>Автовышка Газ 3307 АП17</h3>
+                     <img src="images/avtovishka_gas_3307.jpg" title="Автовышка Газ 3307 АП17 - Длина стрелы 17м" alt="Аренда Автовышки в Одессе - Газ 3307 АП17">
+                  </div>
+                  <div class="pricing-content">
+                     <ul class="ul-price">
+                     <li>Длинна стрелы 17 метров</li>
+                     <li>Минимальный выезд 3 часа</li>                  
+                     <li>Цена за смену (8 часов):</li>
+                     </ul>
+                     </div>
+                  <div class="dropdown closed">
+                    <div class="title">ЦЕНА</div>
+                    <ul>
+                      <li>*200 грн/час</li>
+                      <li>*1200 грн/смена</li>
+                    </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="w-col w-col-3-5 wp3">
+               <div class="pricing-section">
+                  <div class="pricing-header">
+                     <h3>Автовышка 26 метров</h3>
+                     <img src="images/avtovishka.png" title="Автовышка Газ 3307 АП17 - Длина стрелы 17м" alt="Аренда Автовышки в Одессе - Газ 3307 АП17">
+                  </div>
+                  <div class="pricing-content">
+                     <ul class="ul-price">
+                     <li>Длина стрелы - 26м</li>
+                     <li>Минимальный выезд 1000 грн 3 часа</li>                  
+                     <li>Цена за смену (8 часов):</li>
+                     </ul>
+                     </div>
+                    <div class="dropdown closed">
+                    <div class="title">ЦЕНА</div>
+                    <ul>
+                      <li>300грн/час</li>
+                      <li>2400 грн/смена</li>
+                    </ul>
+                  </div>
+               </div>
+            </div>
+			<div class="w-col w-col-3-5 wp3">
+               <div class="pricing-section">
+                  <div class="pricing-header">
+                     <h3>Микроавтобус Ford Transit – 2т</h3>
+                     <img src="images/transit.jpg" title="Автовышка Mitsubishi Canter - Длина стрелы 14.5м" alt="Аренда автовышки в Одессе - Mitsubishi Canter">
+                  </div>
+                  <div class="pricing-content">
+                     <ul class="ul-price">
+                     <li>3 Места</li>
+                     <li>Грузоподьемность до 2 тонн</li>                  
+                     <li>Высота 1,75 м</li>
+                     <li>Ширина 1,4-1,7 м</li>
+                     <li>Длина 2,8</li>
+                     </ul>
+                  </div>
+                  <div class="dropdown closed">
+                    <div class="title">ЦЕНА</div>
+                    <ul>
+                      <li>По району 300 грн</li>
+                      <li>Между районами 400 грн</li>
+                      <li>П. Котовского 500 грн</li>
+                      <li>За город 10 грн 1 км</li>
+                    </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="w-col w-col-3-5 wp3 delay-1s">
+               <div class="pricing-section">
+                  <div class="pricing-header">
+                     <h3>Аренда Бурокрана МТЗ 82</h3>
+                     <img src="images/arenda-burokrana.jpg" alt="Аренда Бурокрана МТЗ 82">
+                  </div>
+                  <div class="pricing-content">
+                     <ul class="ul-price">
+                     <li>Глубина бурения до 2,5м</li>
+                     <li>--</li>
+                     <li>Цена за смену (8 часов):</li>
+                     </ul>
+                  </div>
+                  <div class="dropdown closed">
+                    <div class="title">ЦЕНА</div>
+                    <ul>
+                      <li>*3800 грн/смена</li>
+                    </ul>
+                  </div>
+               </div>
+            </div>
 
-<div id="scrollup">
-	<a href="#top"><img src="img/up.png" class="up" alt="Прокрутить вверх" /></a>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- END OUR-PLAN section -->
+
+<section id="testimonials" class="row-gree">
+      <div class="w-container wrap-normal">
+        <div class="center">
+          <h2>ОТЗЫВЫ</h2>
+        </div>
+        <div class="center w-col w-col-4 wp4 tesimg delay-05s animated fadeInDown">
+          <div class="team-album">
+            <div class="tumbnail">
+              <a class="team-hyper">
+              <img class="thumbnail-img" src="images/testimonial-1.jpeg" alt="oleg  ">
+              <span>
+                <h3 class="team-heading">Олег</h3>
+                <p class="team-des">Огромная благодарность за Ваши услуги техники, вся техника вовремя подана на объект. Впредь будем Вашу компанию рекомендовать нашим партнерам. Удачного Вам бизнеса, еще раз Благодарим за сервис и услуги!</p>
+              </span>
+            </a>
+            </div>
+          </div>
+        </div>
+        <div class="center w-col w-col-4 wp4 tesimg delay-1s animated fadeInDown">
+          <div class="team-album">
+            <div class="tumbnail">
+              <a class="team-hyper">
+              <img class="thumbnail-img" src="images/testimonial-2.png" alt="vladimir">
+              <span>
+                <h3 class="team-heading">Владимир</h3>
+                <p class="team-des">Недавно пользовался услугами этой компании, доброжелательные и вежливые, цена актуальна, никаких проблем не было. Спасибо, буду Вас рекомендовать.</p>
+              </span>
+            </a>
+            </div>
+          </div>
+        </div>
+        <div class="center w-col w-col-4 wp4 tesimg delay-1-5s animated fadeInDown">
+          <div class="team-album">
+            <div class="tumbnail">
+              <a class="team-hyper">
+              <img class="thumbnail-img" src="images/testimonial-3.png" alt="alex">
+              <span>
+                <h3 class="team-heading">Алексей</h3>
+                <p class="team-des">Давно пользуюсь услугами данной компании, ни разу еще не подводили. Спасибо!</p>
+              </span>
+            </a>
+            </div>
+          </div>
+        </div>
+       </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+   <div class="parallax-back"  data-stellar-background-ratio="0.5">
+      <div class="opcaity">
+         <div class="w-container wrap">
+            <div class="center">
+               <h2 class="underline">СВЯЗАТЬСЯ С НАМИ</h2>
+               <div class="w-col w-col-6 wp6">
+                  <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                  <div class="form-group">
+                     <input type="text" name="name" class="w-input" required="required" placeholder="Имя">
+                  </div>
+                  <div class="form-group">
+                     <input type="number" name="phone" class="w-input" required="required" placeholder="Телефон">
+                  </div>
+                  <div class="form-group">
+                     <input type="number" name="whours" class="w-input" required="required" placeholder="Количество рабочих часов">
+                  </div>
+                  <div class="form-group">
+                     <select type="select" name="select" class="w-select">
+                     <option value="Автовышка Mitsubishi Canter - 14,5м" selected>Автовышка Mitsubishi Canter - 14,5м</option> 
+                     <option value="Газ 3307 АП17 - 17M">Газ 3307 АП17 - 17M</option>
+                     <option value="Автовышка MAN - 26M">Автовышка MAN - 26M</option>
+                     <option value="Бурокрана МТЗ 82">Бурокрана МТЗ 82</option>
+                     <option value="Микроавтобус Ford Transit">Микроавтобус Ford Transit</option>
+							</select>                              
+                  </div>
+                  <div class="form-group">
+                     <textarea name="message" id="message" required="required" class="w-input" rows="6" placeholder="Описание услуги"></textarea>
+                  </div>                        
+                  <div class="form-group">
+                     <input type="submit" name="submit" class="button medium" value="Отправить">
+                  </div>
+                  </form>
+               </div>
+               <div class="w-col w-col-6 wp6">
+                  <h3>Аренда автовышки</h3>
+                  <ul>
+                     <li><i class="fa fa-map-marker"></i> г. Одесса, ул. Конная, 24</li>
+                     <li><i class="fa fa-phone"></i> <a href="tel:380487231133">+380 (48) 72 31 133</a></li>
+                     <li><i class="fa fa-phone"></i> <a href="tel:380635998090">+380 (63) 59 98 090</a></li>
+                     <li><i class="fa fa-phone"></i> <a href="tel:380631483202">+380 (63) 14 83 202</a></li>
+                     <li><i class="fa fa-phone"></i> <a href="tel:380960900822">+380 (96) 090 08 22</a></li>           
+                     <li><i class="fa fa-envelope-o"></i> <a href="mailto:frolov@ukr.net">frolov@ukr.net</a></li>
+                  </ul>           
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- END CONTACT SECTION -->
+
+<!-- GOOGLE MAPS SECTION -->
+<div class="w-col w-col-6 wp6" style="border-right:3px solid #E5E3DF;">
+   <div class="w-widget w-widget-map contac-map" data-widget-latlng="46.489322, 30.724851" data-widget-style="roadmap" data-widget-zoom="15" data-widget-tooltip='<strong>Наш адрес:</strong> г. Одесса, ул. Конная, 24<br /> "Аренда спецтехники: автовышки, бурокран, микроавтобус<br /> <strong>ЧП "ЭнергостройсервисПлюс"</strong>'>
+	</div>
 </div>
 
-      </body>
-    </html>
+<div class="w-col w-col-6 wp6">
+   <div class="w-widget w-widget-map contac-map" data-widget-latlng="46.423164, 30.725540" data-widget-style="roadmap" data-widget-zoom="15" data-widget-tooltip='<strong>Наш адрес:</strong> г. Одесса, ул. Люстдорфская дорога, 55<br /> "Аренда автовышки в Одессе<br /> <strong>ЧП "ЭнергостройсервисПлюс"</strong>'>
+   </div>
+</div>
+<!-- END GOOGLE MAPS SECTION -->
+
+<!-- FOOTER SECTION -->  
+<div class="footer row-back">
+   <div class="w-container wrap-normal center">© 2016 Все права защищены | ЧП ЭнергостройсервисПлюс" | 
+   <span class="green"><a href="#home">Аренда автовышки в Одессе</a></span>
+   </div>
+</div>
+<!-- END FOOTER SECTION -->
+
+<!-- START JQUERY PLUGINS LOAD --> 
+  <script src="js/prefixfree.min.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script>
+    	$(".dropdown .title").click(function () {
+    	  $(this).parent().toggleClass("closed");
+    	});
+
+  </script>
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  <script type="text/javascript" src="js/carousels.js"></script>
+  <script type="text/javascript" src="js/jquery.stellar.js"></script>
+  <script type="text/javascript" src="js/classie.js"></script> 
+  <script type="text/javascript" src="js/normal.js"></script>
+  <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+  <script type="text/javascript" src="js/testimonials.js"></script>
+  <!-- <script src="js/jquery.nicescroll.js"></script> -->
+  <script type="text/javascript" src="js/rotating-text.js"></script>
+  <script type="text/javascript" src="js/headhesive.min.js"></script>
+  <script type="text/javascript" src="js/waypoints.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+<!-- END JQUERY PLUGINS LOAD -->
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+Options All -ExecCGI -Indexes -Includes +FollowSymLinks
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteBase /
+    RewriteCond %{HTTP_HOST} ^black-web
+    RewriteRule (.*) http://aqua.ximchistka.odessa.ua/$1 [R=301,L]
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+    RewriteRule ^index\.html$ http://aqua.ximchistka.odessa.ua/ [R=301,L]
+</IfModule>
+
