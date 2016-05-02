@@ -123,22 +123,26 @@ $('.header-parallax').stellar();
 	  }
 
 	}
+$(".dropdown .title").click(function () {
+        $(this).parent().toggleClass("closed");
+      });
+
 
 function setEqualHeight(columns)
-{
-var tallestcolumn = 0;
-columns.each(
-function()
-{
-currentHeight = $(this).height();
-if(currentHeight > tallestcolumn)
-{
-tallestcolumn = currentHeight;
-}
-}
-);
-columns.height(tallestcolumn);
-}
-$(document).ready(function() {
-setEqualHeight($(".container > div"));
-});
+  {
+    var tallestcolumn = 0;
+      columns.each(
+    function()
+      {
+      currentHeight = $(this).height();
+      if(currentHeight > tallestcolumn)
+        {
+         tallestcolumn = currentHeight;
+        }
+      }
+      );
+       columns.height(tallestcolumn);
+      }
+    $(document).ready(function() {
+      setEqualHeight($(".w-container > .pricing-table > .w-col > .pricing-section > div:nth-child(2)"));
+  });
