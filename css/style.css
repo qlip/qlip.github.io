@@ -265,8 +265,13 @@ h3.kill-top-margin {
 .minh {
   min-height: 220px;
 }
-
-.col-my img {
+.rmarg {
+  margin-right: 10%;
+}
+.lmarg {
+  margin-left: 10%;
+}
+.testi img {
   border-radius: 50%;
   text-align: center;
 }
@@ -274,12 +279,6 @@ h3.kill-top-margin {
   padding: 5px;
 }
 
-@media (min-width: 1200px) {
-  .col-my {
-    width: 20%;
-    float: left;
-  }
-}
 .padbot{
   padding-bottom: 20px;
 }
