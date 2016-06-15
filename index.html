@@ -1,11 +1,275 @@
+
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
-</head>
-<body>
-<iframe src="http://wstg.caronfly.com/banner" scrolling="no" width="492" height="338" seamless frameborder="no"></iframe>
-</body>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>CarOnFly - мобильный сервис по вызову такси</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body role="document">
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#first">Главная</a></li>
+            <li><a href="#why">Почему CarOnFLy</a></li>
+            <li><a href="#work">Тарифы</a></li>
+            <li ><a href="#" class="yellow">Скачать <i class="fa fa-cloud-download"></i></a>
+          </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <section id="first" class="hs" data-type="background" data-speed="10" class="pages" > 
+      <div class="midbl">
+        <h1>Сервис CarOnFly - приложение заказа такси <br /> запускается в Днепре и набирает водителей!</h1>
+        <h3>Оставьте заявку сегодня и получите 1 МЕСЯЦ работы в системе без комиссии!</h3>
+      </div>
+    </section>
+
+    <section id="applicationf" class="container"> 
+         <h4>Отправьте заявку сегодня и получите месяц работы в системе без комиссии!</h4>
+
+                      <div class="col-md-6 form">
+                        <h2>Оформить заказ</h2>
+                        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" required="required" placeholder="Ваше имя">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="phone" class="form-control" required="required" placeholder="Ваш телефон">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Марка, модель и год выпуска авто"></textarea>
+                            </div>                        
+                            <div class="form-group">
+                                <input type="submit" name="submit" class="btn btn-submit" value="Оставить заявку">
+                            </div>
+                        </form>
+                    </div>
+    </section>
+
+    <section id="why" class="row" > 
+      <h3>Почему CarOnFly? </h3>
+      <div class="container">
+                <div class="col-md-4 what-we-do text-center">
+                <div class="full-rounded">
+                  <i class="fa fa-usd fa-4x"></i>
+                </div>
+                <h4 class="bold "><p>Минимальная комиссия&nbsp;</p></h4>
+                <div class="text-left"><div style="text-align:center">Наша цель - обеспечить водителей лучшими условиями работы. &nbsp;Программа бонусов позволит зарабатывать на 35% больше, чем в других службах такси!</div></div>
+              </div>
+              
+              <div class="col-md-4 what-we-do text-center">
+                <div class="full-rounded">
+                  <i class="fa fa-info-circle fa-4x"></i>
+                </div>
+                <h4 class="bold "><p>Простота&nbsp;подключения&nbsp;</p></h4>
+                <div class="text-left"><div style="text-align:center">Вам не нужно ехать в офис и тратить время. Оставьте заявку на сайте и мы с вами свяжемся для обсуждения деталей!</div></div>
+              </div>
+              
+              <div class="col-md-4 what-we-do text-center">
+                <div class="full-rounded">
+                  <i class="fa fa-child fa-4x"></i>
+                </div>
+                <h4 class="bold "><p>Большое количество заказов&nbsp;</p></h4>
+                <div class="text-left"><div style="text-align:center">Мы постоянно работаем над привлечением еще большего числа пассажиров. На данный момент в нашей базе больше 50 000 пассажиров!</div></div>
+              </div>
+              
+              <div class="clearfix" style="margin-bottom: 60px"></div>
+              
+              <div class="col-md-4 what-we-do text-center">
+                <div class="full-rounded">
+                  <i class="fa fa-clock-o fa-4x"></i>
+                </div>
+                <h4 class="bold "><p>Свободный график&nbsp;</p></h4>
+                <div class="text-left"><p style="text-align: center;">Работайте в удобное для вас время.&nbsp;Планируйте свой график самостоятельно!</p></div>
+              </div>
+              
+              <div class="col-md-4 what-we-do text-center">
+                <div class="full-rounded">
+                  <i class="fa fa-money fa-4x"></i>
+                </div>
+                <h4 class="bold "><p>Конкурентные тарифы&nbsp;</p></h4>
+                <div class="text-left"><p style="text-align: center;">Сотрудничая с CarOnFly вы будете зарабатывать больше. Тариф действительно выше!</p></div>
+              </div>
+              
+              <div class="col-md-4 what-we-do text-center">
+                <div class="full-rounded">
+                  <i class="fa fa-gift fa-4x"></i>
+                </div>
+                <h4 class="bold "><p>Гарантированные бонусы</p></h4>
+                <div class="text-left"><p style="text-align:center">Наши бонусы позволят вам зарабатывать на 35% больше чем в других такси службах!</p></div>
+              </div>
+
+              <div class="clearfix" style="margin-bottom: 60px"></div>
+          </div>
+    </section>
+
+    <section id="pay" class="hs" data-type="background" data-speed="10" class="pages"> 
+     <div class="midbl">
+         <h2>Доплачиваем 15 грн за КАЖДЫЙ выполненный заказ!</h2>
+         <h4>Минимальный заработок за 2 км поездки  — 35 гривен</h4>
+     </div>
+    </section>
+
+     <section id="work"> 
+        <div class="container">
+
+          <div class="row" style="margin-bottom: 30px">
+            <div class="col-md-6" style=" ">
+              <h2 class="page-title resetParagraphTags"><p>Работа по тарифу <strong>EasyFly</strong></p></h2>
+              <h3 class="box-subtitle resetParagraphTags"></h3>
+              <div class="text-left">
+                <div class="text-helper "><p>Если ваш автомобиль будет отнесен к типу EasyFly ваш рабочий тариф составит:</p>
+
+                <ul>
+                  <li>посадка - 20 грн (включено 2 км);</li>
+                  <li>каждый следующий 1 км - 4,5 грн/км;</li>
+                  <li>простой - 0,5 грн/мин (ожидание пассажира и движение со скоростью менее 7 км/ч);</li>
+                  <li>доплата - 15 грн за каждый выполненный заказ.</li>
+                </ul>
+
+                <p><strong style="line-height:1.42857">Например</strong><span style="line-height:1.42857">: за 2 километра поездки&nbsp;</span><span style="line-height:1.42857">ваш минимальный заработок составит</span>&nbsp;20 грн посадка + 15 грн доплата = 35 гривен.</p>
+
+                <p><strong>Это на 35 % выше, чем в других службах такси!</strong></p>
+
+                <p>&nbsp;</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6" style=" ">
+              <img src="http://cdn.lptrend.com/images/land2a9f971b2d3a0e73eb6e1d13a4fe5fb6.png" class="img-responsive shadow">
+            </div>
+          </div>
+
+           <div class="row" style="margin-bottom: 30px">
+            <div class="col-md-6" style=" float:right">
+              <h2 class="page-title resetParagraphTags"><p>Работа по тарифу <strong>GoodFly</strong></p></h2>
+              <h3 class="box-subtitle resetParagraphTags"></h3>
+              <div class="text-left">
+                <div class="text-helper "><p>Если ваш автомобиль будет отнесен к типу GoodFly ваш рабочий тариф составит:</p>
+
+              <ul>
+                <li>посадка - 25 грн (включено 2 км);</li>
+                <li>каждый следующий 1 км - 5 грн/км;</li>
+                <li>простой - 0,5 грн/мин (ожидание пассажира и движение со скоростью менее 7 км/ч);</li>
+                <li>доплата - 15 грн за каждый выполненный заказ.</li>
+              </ul>
+
+              <p><strong>Например</strong>: за 2 километра поездки&nbsp;ваш минимальный заработок составит&nbsp;25 грн посадка + 15 грн доплата = 40 гривен.</p>
+
+              <p><strong>Это на 40 % выше, чем в других службах такси!</strong></p>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-6" style=" float:left">
+                  <img src="http://cdn.lptrend.com/images/land17754fd106d16bb5ed243d6404c48b5a.png" class="img-responsive shadow">
+            </div>
+          </div>
+
+          <div class="row" style="margin-bottom: 30px">
+            <div class="col-md-6" style=" ">
+              <h2 class="page-title resetParagraphTags"><p><span style="color:rgb(85, 85, 85); font-size:14px">Работа по тарифу&nbsp;</span><strong>BizFly</strong></p></h2>
+              <h3 class="box-subtitle resetParagraphTags"></h3>
+              <div class="text-left">
+                <div class="text-helper "><p>Если ваш автомобиль будет отнесен к типу&nbsp;BizFly ваш рабочий тариф составит:</p>
+
+              <ul>
+                <li>посадка - 30 грн (включено 2 км);</li>
+                <li>каждый следующий 1 км - 5,5 грн/км;</li>
+                <li>простой - 1 грн/мин (ожидание пассажира и движение со скоростью менее 7 км/ч);</li>
+                <li>доплата - 15 грн за каждый выполненный заказ.</li>
+              </ul>
+
+              <p><strong>Например</strong>: за 2 километра поездки&nbsp;ваш минимальный заработок составит 30 грн посадка + 15 грн доплата = 45 гривен.</p>
+
+              <p><strong>Это на 20 % выше, чем в других службах такси!</strong></p>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" style=" ">
+                 <img src="http://cdn.lptrend.com/images/land7eff654916f63d21080115036597aeaa.png" class="img-responsive shadow">
+            </div>
+          </div>
+        
+      </div>
+    </section>
+
+     <section id="applications" class="row"> 
+     <div class="container">
+      <h3>Отправьте заявку сегодня и получите месяц работы в системе без комиссии!</h3>
+          <div class="col-md-6 form">
+                <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" required="required" placeholder="Ваше имя">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="phone" class="form-control" required="required" placeholder="Ваш телефон">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Марка, модель и год выпуска авто"></textarea>
+                                </div>                        
+                                <div class="form-group">
+                                    <input type="submit" name="submit" class="btn btn-submit" value="Оставить заявку">
+                                </div>
+                  </form>
+                  <hr>
+             </div>
+          </div>
+    </section>
+
+      <footer class="row">
+      <div class="container text-center">
+
+          
+          <a href="mailto:support@caronfly.com">support@caronfly.com</a><br />
+            <br />
+          <a href="tel:+38 (098) 980-62-12">+38 (098) 980-62-12</a><br />
+          <a href="tel:+38 (063) 014-37-98">+38 (063) 014-37-98</a><br />
+          <a href="tel:+38 (095) 706-22-60">+38 (095) 706-22-60</a><br />
+          <a href="tel:+38 (073) 799-79-79">+38 (073) 799-79-79</a> 
+          <br />
+          <br />
+          <p>2016 © Все права защищены.</p>      
+      </div>
+      </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

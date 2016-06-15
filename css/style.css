@@ -1,0 +1,117 @@
+body {
+    font: 16px/24px "Roboto", Arial, Helvetica, Geneva, sans-serif;
+    background: #f3f6f8;
+    color: #2e3137;
+}
+h1, h2, h3, h4 {
+	text-align: center;
+}
+
+.hs {
+	height: 600px;
+}
+#first {
+	margin-top: 50px;
+    text-align: center;
+    display: table;
+    width: 100%;
+    background: url("../img/yellow.png") center 0 repeat fixed; 
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+}
+.navbar {
+	background-color: #fff;
+}
+.navbar li a:hover  {
+	background-color: #FEE602;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.navbar li a{
+	color: #000;
+}
+.navbar-nav li:first-child a, li:nth-child(2) a, li:nth-child(3) a {
+	padding-top: 21px;
+}
+.yellow {
+	background-color: #FEE602;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+#first h1 {
+    background-color: rgba(255,255,255,0.7);
+    color: #000000;
+    margin-top: 10px;
+    padding: 20px;
+}
+#first h3 {
+    background-color: rgba(252,252,252,0.9);
+    color: #2e3137;
+    padding: 10px;
+	display: inline-block;
+}
+#applicationf h4{
+    font: 300 48px/56px "Roboto", sans-serif
+}
+.navbar i.fa {
+    font-size: 24px;
+    margin-left: 5px;
+}
+#navbar {
+	float: right;
+}
+.midbl {
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#pay {
+	display: table;
+	width: 100%;
+	background: url("../img/man.png") center 0 repeat fixed; 
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+.form {
+	margin: 0 auto;
+	float: none;
+}
+.what-we-do .full-rounded {
+    background: #656870;
+    display: inline-block;
+    height: 170px;
+    width: 170px;
+    color: #f3f6f8;
+    margin: 30px 0;
+	border-radius: 50%;
+}
+.what-we-do .full-rounded i {
+    position: relative;
+    top: 56px;
+}
+#pay h2 {
+	color: #000000;
+    background-color: rgba(255,255,255,0.7);
+    margin: 0;
+    padding: 0 10px;
+    font-size: 36px;
+    line-height: 56px;
+}
+#pay h4 {
+    color: #000;
+    background-color: rgba(252,252,252,0.9);
+    display: block;
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.btn-submit {
+	width: 100%;
+	background-color: #FEE602;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.btn-submit:hover {
+	box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+}
