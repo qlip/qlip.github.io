@@ -128,7 +128,21 @@ h1, h2, h3, h4 {
     text-align: center;
     color: #000;
     padding: 20px;
+    display: block;
+    margin-bottom: 10px;
 }
 .cofbtn:hover {
     text-decoration: none;
 }
+@media (max-width: 400px) {
+    .modal-dialog {
+    margin: 0px;
+    }
+}
+@media (max-width: 768px) {
+    #navbar {
+        float: none;
+    }
+}
+
+
