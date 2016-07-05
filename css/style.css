@@ -188,7 +188,7 @@ body {
   	display: none;
   }
   .bshow {
-	display:  inline;
+	display:  block;
   }
     .navbar-brand {
     padding: 5px 0 0;
