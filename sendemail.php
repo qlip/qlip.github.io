@@ -10,11 +10,11 @@ $status = array(
     $phone = @trim(stripslashes($_POST['phone']));  
     $message = @trim(stripslashes($_POST['message']));  
  
-    $email_from = $email; 
-    $email_to = 'milen-06@mail.ru';//replace with your email
+    $email_from = $name; 
+    $email_to = 'support@caronfly.com';//replace with your email
  
  
-    $body = 'Имя: ' . $name . "\n\n" .  'Телефон: ' . $phone . "\n\n" . 'Сообщение: ' . $message; 
+    $body = 'Имя: ' . $name . "\n\n" .  'Телефон: ' . $phone . "\n\n" . 'Сообщение: ' . $message . "\n\n" . 'Заявка с лендинга Одесса'; 
  
     $success = @mail($email_to, $phone, $body, 'From: <'.$email_from.'>'); 
  
