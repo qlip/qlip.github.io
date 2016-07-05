@@ -90,7 +90,7 @@ body {
 .navbar-brand>img {
   height: 40px;
 }
-.navbar-brand p {
+.navbar-brand span {
   padding-top: 13px;
   padding-left: 5px;
 }
@@ -165,8 +165,39 @@ body {
     .paddx2 {
     padding: 80px;
   }
+  .bshow {
+	display: none;
+  }
+  .mnav {
+    padding: 0 15%;
+  }
+  .lfcr {
+  	text-align: left;
+  }
+  .tabl {
+  display: table;
+  }
 }
-
+@media screen and (max-width: 1372px) {
+  .mnav {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .bhide {
+  	display: none;
+  }
+  .bshow {
+	display:  inline;
+  }
+    .navbar-brand {
+    padding: 5px 0 0;
+  }
+  .lfcr {
+  	text-align: center;
+	display: block !important;
+  }
+}
 @media screen and (max-width: 768px) {
   .masthead-nav > li {
   display: block;
@@ -174,14 +205,11 @@ body {
   .inner {
     padding: 0;
   }
-  .navbar-brand {
-    padding: 15px 0 0;
-  }
   .cover {
     width: 60%;
   }
   .masthead-nav > li + li {
-    margin-left: 0px;
+    margin-left: 10px;
   }
   .rb {
     padding-right: 0;
@@ -200,6 +228,12 @@ body {
     .paddx2 {
     padding: 50px;
   }
+  .mnav {
+    padding: 0 15%;
+  }
+  .tabl {
+  display: block;
+  }
 }
 @media screen and (max-width: 500px) {
   .masthead-nav > li {
@@ -207,9 +241,6 @@ body {
   }
   .inner {
     padding: 0;
-  }
-  .navbar-brand {
-    padding: 15px 0 0;
   }
   .cover {
     width: 100%;
@@ -283,9 +314,6 @@ body {
   display: table;
   min-height: 500px;
 } 
-.tabl {
-  display: table;
-}
 .midl {
     display: table-cell;
     vertical-align: middle;
@@ -341,7 +369,6 @@ h5 {
 .mnav {
   width: 100%;
   margin: 0 auto;
-  padding: 0 15%;
 }
 hr {
   width: 35%;
