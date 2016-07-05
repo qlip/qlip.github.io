@@ -375,6 +375,7 @@ hr {
 }
 .padd {
   padding: 40px;
+  clear: both;
 }
 .dsvg {
   width: 150px;
@@ -395,6 +396,11 @@ hr {
 }
 .icot {
   height: 80px;
+}
+.pad {
+  padding: 10px;
+  clear: both;
+  min-height: 100px;
 }
 .spad {
   padding: 10px;
