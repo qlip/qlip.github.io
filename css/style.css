@@ -87,9 +87,6 @@ body {
 .navbar-brand {
   display: flex;
 }
-.navbar-brand>img {
-  height: 40px;
-}
 .navbar-brand span {
   padding-top: 13px;
   padding-left: 5px;
@@ -99,10 +96,6 @@ body {
 }
 .navbar-toggle .icon-bar {
   background-color: #fff;
-}
-.navbar-brand {
-  padding: 25px;
-  font-size: 40px;
 }
 .masthead-nav > li {
   display: inline-block;
@@ -177,6 +170,23 @@ body {
   .tabl {
   display: table;
   }
+  .navbar-brand {
+  padding: 25px;
+  font-size: 40px;
+  }
+ .navbar-brand>img {
+  height: 40px;
+  }
+  .tablh {
+  display: table;
+  min-height: 500px;
+ }
+ #publish p{
+  padding: 60px 0 20px;
+  }
+  #advertis p{
+  padding: 60px 0 20px;
+  }
 }
 @media screen and (max-width: 1372px) {
   .mnav {
@@ -196,6 +206,31 @@ body {
   .lfcr {
   	text-align: center;
 	display: block !important;
+  }
+  .navbar-brand>img {
+  height: 35px;
+  }
+  .navbar-brand {
+  padding: 10px;
+  font-size: 30px;
+  }
+  .mnav {
+    padding: 0 3%;
+ }
+ .masthead-nav > li > a {
+    font-size: 14px;
+ }
+ .navbar>.container {
+ 	width:100%;
+ }
+ .tablh {
+  min-height: 100px;
+ }
+  #publish p{
+   padding: 10px 0;
+  }
+  #advertis p{
+   padding: 10px 0;
   }
 }
 @media screen and (max-width: 768px) {
@@ -229,7 +264,7 @@ body {
     padding: 50px;
   }
   .mnav {
-    padding: 0 15%;
+    padding: 0 3%;
   }
   .tabl {
   display: block;
@@ -309,20 +344,10 @@ body {
   .cover-container {
     width: 900px;
   }
-}
-.tablh {
-  display: table;
-  min-height: 500px;
 } 
 .midl {
     display: table-cell;
     vertical-align: middle;
-}
-#publish p{
-  padding: 60px 0 20px;
-}
-#advertis p{
-  padding: 60px 0 20px;
 }
 .container{
   padding: 20px 0;

@@ -7,16 +7,17 @@ $status = array(
 );
   
     $name = @trim(stripslashes($_POST['name']));
-    $phone = @trim(stripslashes($_POST['phone']));  
+    $email = @trim(stripslashes($_POST['email']));  
+    $select = @trim(stripslashes($_POST['select']));  
     $message = @trim(stripslashes($_POST['message']));  
  
     $email_from = $name; 
-    $email_to = 'support@caronfly.com';//replace with your email
+    $email_to = 'test@test.com';//replace with your email
  
  
-    $body = 'Имя: ' . $name . "\n\n" .  'Телефон: ' . $phone . "\n\n" . 'Сообщение: ' . $message . "\n\n" . 'Заявка с лендинга Одесса'; 
+    $body = 'Name: ' . $name . "\n\n" .  'Email: ' . $email . "\n\n" . 'Type: ' . $select . "\n\n" . 'Message: ' . $message . "\n\n" .; 
  
-    $success = @mail($email_to, $phone, $body, 'From: <'.$email_from.'>'); 
+    $success = @mail($email_to, $email, $body, 'From: <'.$email_from.'>'); 
  
     echo json_encode($status);
  
