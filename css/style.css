@@ -59,22 +59,17 @@ body {
 }
 .sltext {
 	font-weight: 300;
-    font-size: 30px;
 }
 h1 {
-	font-size: 45px;
     font-weight: 700;
     text-transform: uppercase;
 }
 .bigbtn {
-	font-size: 25px;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
     background-color: #f29900;
-    padding: 15px 60px;
     font-weight: 700;
-    border-radius: 30px;
 }
 h3 {
 	font-weight: 400;
@@ -159,12 +154,40 @@ footer p {
 	    line-height: 1.8;
 	    font-size: 16px;
 	}
+	h1 {
+	    font-size: 45px;
+    }
+    .sltext {
+	    font-size: 30px;
+    }
+    .bigbtn {
+	font-size: 25px;
+    padding: 15px 60px;
+    border-radius: 30px;
+    }
+	.main-menu li {
+		padding: 10px 0;
+	}
+	
 }
 @media (max-width: 992px) {
 	.main-menu {
 		width: 100%
 	}
-	.main-menu li {
-		padding: 10px 0;
+	h1 {
+	    font-size: 28px;
+    }
+    .sltext {
+	    font-size: 18px;
+    }
+    .bigbtn {
+		font-size: 20px;
+	    padding: 5px 30px;
+	    border-radius: 30px;
+    }
+}
+@media (max-width: 600px) {
+	.owl-controls {
+		display: none !important;
 	}
 }
